@@ -2,6 +2,27 @@
 
 Prepared 17 October 2026 for Antigravity CLI on Omarchy / Arch Linux.
 
+## Fresh CLI reset
+
+Run `git pull --ff-only`, close Antigravity App/IDE and all `agy` sessions, then run:
+
+```bash
+bash reset-antigravity.sh --dry-run
+bash reset-antigravity.sh
+```
+
+This archives CLI settings, plugins, sessions, known caches, shared Antigravity settings, global MCP definitions and MCP OAuth tokens, plus the known Genmedia executables under ~/.local/bin. It removes the old agy binary and uses Google's official installer for a fresh CLI. No MCP templates are reinstalled. Originals remain in a private timestamped folder under ~/AntigravityResetBackups with a manifest of original paths. Do not commit this backup, which contains credentials and history.
+
+The current folder and its parent folders are checked for `.agents/mcp_config.json`. To include other projects, pass `--workspace /absolute/project/path` once per project. Explicit workspace arguments replace the default current-folder scope. The script does not search your entire disk. Other project configs remain active when opening those projects. Run from each additional project or list every intended project with --workspace.
+
+The shared ~/.gemini/config/config.json and global MCP definitions also affect Antigravity App/IDE. Close those surfaces before resetting. The script preserves other Gemini files, project code, system packages, npm/uv caches, and external server installations other than the seven known user-local Genmedia binaries. Removing MCP definitions disconnects those other servers from the reset CLI. Built-in tools remain part of Antigravity.
+
+Google Cloud credentials, resources and billing are unchanged. Account credentials in the OS keyring are also unchanged, so automatic sign-in might occur. For a fresh account login, use `/logout` before closing the old session. Do not choose the API-key or Cloud route for subscription usage. If you previously exported AGY_ADC_AUTH in your shell profile, remove this override yourself. The script does not rewrite shell profiles. A reset does not add image-generation entitlement or change subscription quotas.
+
+The official installer downloads the CLI after the old state is archived. If installation fails, originals remain in the printed backup folder. Close Antigravity, inspect manifest.json, and move the archived entries back to their original paths, saving any newly created files separately first. A failed installer download or failed prerequisite check leaves the existing installation unchanged. Use `--bin-dir /your/user/bin` for a nondefault user-owned installation. Package-manager/system installations require their own removal process, and this script refuses to reset a different executable found on PATH.
+
+Sources: [Google CLI quickstart](https://antigravity.google/docs/cli-getting-started), [official installer](https://antigravity.google/cli/install.sh), [MCP configuration locations](https://antigravity.google/docs/mcp?tab=cli), [account sign-in and keyring](https://antigravity.google/docs/install?tab=cli).
+
 ## Image generation only
 
 After pulling the repository, run `bash enable-image-only.sh`. This checks for the Nano Banana binary and Google application credentials, requests the Cloud project and location, backs up your config and enables only `genmedia-nanobanana`. Other MCP servers become disabled. Your computer performs these changes when you run the command.
@@ -27,6 +48,7 @@ The JSON files configure servers. The servers publish individual tools after con
 | config.json | Portable connection templates |
 | mcp_config.json | Identical copy with Antigravity's expected filename |
 | install.sh | Backup and merge into the global Antigravity config |
+| reset-antigravity.sh | Archive CLI state and MCP definitions, then reinstall a clean CLI |
 | manage.py | List, enable, disable, configure or import servers locally |
 | CATALOG.md | Every server, status, setup requirement and primary source |
 | catalog.json | Machine-readable coverage and source index |
