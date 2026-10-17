@@ -2,6 +2,18 @@
 
 Prepared 17 October 2026 for Antigravity CLI on Omarchy / Arch Linux.
 
+## GitHub CLI account setup
+
+Run `bash setup-github.sh` from an interactive terminal as your regular user. Missing Git and GitHub CLI packages are installed through `sudo pacman -Syu --needed git github-cli`. The script defaults to the account `ivan-esteban23`. Use `--account YOUR_USERNAME` for another account, or `--scopes` to print the requested scope list without signing in.
+
+The browser flow requests the broad documented OAuth resource scopes for repositories, workflow files, organizations and enterprise administration, webhooks, keys, gists, notifications, profile data, Projects, Packages, Codespaces and audit logs. This includes repository and package deletion. Parent scopes include their subordinate permissions. The list omits offline_access, which changes token expiry/refresh behavior rather than granting resource permissions. This is OAuth authorization, not every fine-grained GitHub App permission or GitHub Enterprise Server site-administrator access.
+
+Sign in as your intended account and authorize GitHub CLI. The script checks the returned account and OAuth scope header, then configures GitHub CLI as the HTTPS credential helper. Existing commit author values are preserved. Missing values use the account's public name and GitHub noreply address. Existing ~/.gitconfig is backed up before Git configuration changes. SSH remotes remain unchanged and still require SSH authentication. No repositories are created, modified or deleted during setup, and no MCP server is installed.
+
+GitHub decides the granted scopes. Account roles, organization SSO, OAuth app restrictions, repository rules and plan limitations still apply. The script stops if requested scopes are missing. A login granted to an unintended browser account is not automatically revoked, so review browser account selection. GitHub CLI normally uses the system credential store and falls back to its configuration file when secure storage is unavailable. This script never prints or exports a token. Inherited token variables are ignored within this script only, so remove parent-shell GH_TOKEN/GITHUB_TOKEN overrides if subsequent CLI commands use an older token.
+
+Sources: [GitHub CLI browser login](https://cli.github.com/manual/gh_auth_login), [Git credential helper setup](https://cli.github.com/manual/gh_auth_setup-git), [OAuth scopes and normalization](https://docs.github.com/en/apps/oauth-apps/building-oauth-apps/scopes-for-oauth-apps), [enterprise OAuth scopes](https://docs.github.com/en/enterprise-cloud@latest/apps/oauth-apps/building-oauth-apps/scopes-for-oauth-apps), [SSH signing key scope](https://docs.github.com/en/rest/users/ssh-signing-keys).
+
 ## Fresh CLI reset
 
 Run `git pull --ff-only`, close Antigravity App/IDE and all `agy` sessions, then run:
@@ -49,6 +61,7 @@ The JSON files configure servers. The servers publish individual tools after con
 | mcp_config.json | Identical copy with Antigravity's expected filename |
 | install.sh | Backup and merge into the global Antigravity config |
 | reset-antigravity.sh | Archive CLI state and MCP definitions, then reinstall a clean CLI |
+| setup-github.sh | Browser GitHub login with broad OAuth scopes and HTTPS Git setup |
 | manage.py | List, enable, disable, configure or import servers locally |
 | CATALOG.md | Every server, status, setup requirement and primary source |
 | catalog.json | Machine-readable coverage and source index |
