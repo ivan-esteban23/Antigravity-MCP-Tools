@@ -42,8 +42,10 @@ In your Antigravity-MCP-Tools checkout:
 
 ```bash
 git pull --ff-only
-python3 manage.py image-only
+bash enable-image-only.sh
 ```
+
+The Bash script calls manage.py's image-only action. Keep both files in the checkout. It checks local prerequisites before changing the config.
 
 Enter the project ID and Vertex AI location when prompted. The default location is us-central1. Use a location supported by your chosen model. Existing configured values or GOOGLE_CLOUD_PROJECT and GOOGLE_CLOUD_LOCATION environment variables are reused.
 

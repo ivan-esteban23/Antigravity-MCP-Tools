@@ -4,7 +4,7 @@ Prepared 17 October 2026 for Antigravity CLI on Omarchy / Arch Linux.
 
 ## Image generation only
 
-After pulling the repository, run `python3 manage.py image-only`. This checks for the Nano Banana binary and Google application credentials, requests the Cloud project and location, backs up your config and enables only `genmedia-nanobanana`. Other MCP servers become disabled. Your computer performs these changes when you run the command.
+After pulling the repository, run `bash enable-image-only.sh`. This checks for the Nano Banana binary and Google application credentials, requests the Cloud project and location, backs up your config and enables only `genmedia-nanobanana`. Other MCP servers become disabled. Your computer performs these changes when you run the command.
 
 See [IMAGE_GENERATION.md](IMAGE_GENERATION.md) for binary installation, Cloud setup and troubleshooting. Google Cloud usage uses your own project's billing. A Google/Antigravity login does not replace Application Default Credentials.
 
