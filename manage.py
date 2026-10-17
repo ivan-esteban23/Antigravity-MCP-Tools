@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Manage the installed Antigravity MCP config without changing repo templates."""
-import argparse, copy, datetime, getpass, json, os, pathlib, re, shutil, tempfile, sys
+import argparse, copy, datetime, getpass, json, os, pathlib, re, shutil, tempfile, sys, subprocess
 ROOT = pathlib.Path(__file__).resolve().parent
 DEFAULT = pathlib.Path.home() / '.gemini/config/mcp_config.json'
 VARIABLE = re.compile(r'\$\{([A-Z][A-Z0-9_]*)\}')
@@ -42,11 +42,44 @@ def main():
     parser.add_argument('--config',type=pathlib.Path,default=DEFAULT)
     sub=parser.add_subparsers(dest='action',required=True)
     sub.add_parser('list')
+    sub.add_parser('image-only', help='Enable only the Nano Banana image MCP after local setup checks')
     for verb in ['enable','disable','setup']:
         p=sub.add_parser(verb);p.add_argument('name')
     p=sub.add_parser('import');p.add_argument('name');p.add_argument('file',type=pathlib.Path)
     args=parser.parse_args();catalog=json.loads((ROOT/'catalog.json').read_text())
     data=read(args.config);servers=data['mcpServers']
+    if args.action=='image-only':
+        binary=shutil.which('mcp-nanobanana-go')
+        if not binary:
+            raise ValueError('Missing mcp-nanobanana-go. Install the official Genmedia binary and add ~/.local/bin to PATH. See IMAGE_GENERATION.md.')
+        gcloud=shutil.which('gcloud')
+        if not gcloud:
+            raise ValueError('Missing gcloud. Install Google Cloud CLI and follow IMAGE_GENERATION.md.')
+        auth=subprocess.run([gcloud,'auth','application-default','print-access-token'],stdout=subprocess.DEVNULL,stderr=subprocess.DEVNULL,timeout=45)
+        if auth.returncode:
+            raise ValueError('Google application credentials are missing or expired. Run: gcloud auth application-default login')
+        old=servers.get('genmedia-nanobanana',{})
+        old_env=old.get('env',{})
+        project=os.environ.get('GOOGLE_CLOUD_PROJECT') or old_env.get('GOOGLE_CLOUD_PROJECT') or old_env.get('PROJECT_ID','')
+        if not project or VARIABLE.search(project):
+            project=input('Google Cloud project ID: ').strip()
+        if not project or VARIABLE.search(project):
+            raise ValueError('A Google Cloud project ID is required. No changes made.')
+        region=os.environ.get('GOOGLE_CLOUD_LOCATION') or old_env.get('GOOGLE_CLOUD_LOCATION') or old_env.get('LOCATION','')
+        if not region or VARIABLE.search(region):
+            region=input('Vertex AI location [us-central1]: ').strip() or 'us-central1'
+        if VARIABLE.search(region):raise ValueError('Supply an actual region. No changes made.')
+        env=dict(old_env)
+        env.pop('PROJECT_ID',None);env.pop('LOCATION',None)
+        if VARIABLE.search(env.get('GENMEDIA_BUCKET','')):env.pop('GENMEDIA_BUCKET',None)
+        env['GOOGLE_CLOUD_PROJECT']=project;env['GOOGLE_CLOUD_LOCATION']=region
+        entry={'command':binary,'args':[],'env':env,'disabled':False}
+        validate(entry)
+        for definition in servers.values():definition['disabled']=True
+        servers['genmedia-nanobanana']=entry
+        write(args.config,data)
+        print('Enabled only genmedia-nanobanana. All other MCP servers are disabled. Backup saved. Restart agy and open /mcp.')
+        return
     if args.action=='list':
         for name,d in sorted(servers.items()):print(name+': '+('disabled' if d.get('disabled',False) else 'enabled'))
         for e in catalog['servers']:
@@ -87,5 +120,5 @@ def main():
     print('Updated',args.name+'. Restart Antigravity and inspect /mcp. Authentication is separate.')
 if __name__=='__main__':
     try:main()
-    except (ValueError,OSError,json.JSONDecodeError) as exc:
+    except (ValueError,OSError,json.JSONDecodeError,subprocess.TimeoutExpired) as exc:
         print(str(exc),file=sys.stderr);sys.exit(1)

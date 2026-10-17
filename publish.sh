@@ -14,7 +14,7 @@ case "$origin" in
   https://github.com/ivan-esteban23/Antigravity-MCP-Tools|https://github.com/ivan-esteban23/Antigravity-MCP-Tools.git|git@github.com:ivan-esteban23/Antigravity-MCP-Tools.git) ;;
   *) printf 'Origin does not match the intended repository.\n' >&2; exit 1 ;;
 esac
-git add -- config.json mcp_config.json install.sh publish.sh manage.py README.md CATALOG.md catalog.json profile-notes.json google-cloud-endpoints.json .gitignore
+git add -- config.json mcp_config.json install.sh publish.sh manage.py README.md IMAGE_GENERATION.md CATALOG.md catalog.json profile-notes.json google-cloud-endpoints.json .gitignore
 if ! git diff --cached --quiet; then
   git commit -m 'Update Antigravity MCP catalog and configuration templates'
 fi
