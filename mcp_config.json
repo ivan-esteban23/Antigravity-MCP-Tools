@@ -1,0 +1,1027 @@
+{
+  "mcpServers": {
+    "context7": {
+      "serverUrl": "https://mcp.context7.com/mcp/oauth"
+    },
+    "playwright": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@playwright/mcp@latest",
+        "--headless",
+        "--isolated",
+        "--executable-path",
+        "/usr/bin/chromium"
+      ]
+    },
+    "filesystem": {
+      "command": "bash",
+      "args": [
+        "-lc",
+        "mkdir -p \"$HOME/AntigravityWorkspace\" && exec npx -y @modelcontextprotocol/server-filesystem \"$HOME/AntigravityWorkspace\""
+      ]
+    },
+    "sequential-thinking": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-sequential-thinking"
+      ],
+      "env": {
+        "DISABLE_THOUGHT_LOGGING": "true"
+      }
+    },
+    "atlassian": {
+      "serverUrl": "https://mcp.atlassian.com/v2/mcp",
+      "disabled": true
+    },
+    "neon": {
+      "serverUrl": "https://mcp.neon.tech/mcp",
+      "disabled": true
+    },
+    "prisma": {
+      "serverUrl": "https://mcp.prisma.io/mcp",
+      "disabled": true
+    },
+    "supabase": {
+      "serverUrl": "https://mcp.supabase.com/mcp",
+      "disabled": true
+    },
+    "gitlab-orbit": {
+      "serverUrl": "https://gitlab.com/api/v4/orbit/mcp",
+      "disabled": true
+    },
+    "harness": {
+      "serverUrl": "https://mcp.harness.io/mcp",
+      "disabled": true
+    },
+    "linear": {
+      "serverUrl": "https://mcp.linear.app/sse",
+      "disabled": true
+    },
+    "vercel": {
+      "serverUrl": "https://mcp.vercel.com",
+      "disabled": true
+    },
+    "figma-dev-mode-mcp": {
+      "serverUrl": "https://mcp.figma.com/mcp",
+      "disabled": true
+    },
+    "miro": {
+      "serverUrl": "https://mcp.miro.com/",
+      "disabled": true
+    },
+    "lovable-mcp": {
+      "serverUrl": "https://mcp.lovable.dev",
+      "disabled": true
+    },
+    "antimetal": {
+      "serverUrl": "https://mcp.antimetal.com",
+      "disabled": true
+    },
+    "exa": {
+      "serverUrl": "https://mcp.exa.ai/mcp",
+      "disabled": true
+    },
+    "fiscal-ai": {
+      "serverUrl": "https://api.fiscal.ai/mcp",
+      "disabled": true
+    },
+    "grafana-cloud": {
+      "serverUrl": "https://mcp.grafana.com/mcp",
+      "disabled": true
+    },
+    "notion": {
+      "serverUrl": "https://mcp.notion.com/mcp",
+      "disabled": true
+    },
+    "parallel-search": {
+      "serverUrl": "https://search.parallel.ai/mcp-oauth",
+      "disabled": true
+    },
+    "paypal": {
+      "serverUrl": "https://mcp.paypal.com/http",
+      "disabled": true
+    },
+    "posthog": {
+      "serverUrl": "https://mcp.posthog.com/mcp",
+      "disabled": true
+    },
+    "stripe": {
+      "serverUrl": "https://mcp.stripe.com",
+      "disabled": true
+    },
+    "daloopa": {
+      "serverUrl": "https://docs.daloopa.com/mcp",
+      "disabled": true
+    },
+    "github": {
+      "serverUrl": "https://api.githubcopilot.com/mcp/",
+      "disabled": true,
+      "headers": {
+        "Authorization": "Bearer ${GITHUB_PERSONAL_ACCESS_TOKEN}"
+      }
+    },
+    "mongodb": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mongodb-mcp-server",
+        "--readOnly"
+      ],
+      "disabled": true,
+      "env": {
+        "MDB_MCP_CONNECTION_STRING": "${MDB_MCP_CONNECTION_STRING}"
+      }
+    },
+    "pinecone": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@pinecone-database/mcp"
+      ],
+      "disabled": true,
+      "env": {
+        "PINECONE_API_KEY": "${PINECONE_API_KEY}"
+      }
+    },
+    "redis": {
+      "command": "uvx",
+      "args": [
+        "--from",
+        "redis-mcp-server@latest",
+        "redis-mcp-server",
+        "--url",
+        "${REDIS_URL}"
+      ],
+      "disabled": true
+    },
+    "clickhouse": {
+      "command": "uv",
+      "args": [
+        "run",
+        "--with",
+        "mcp-clickhouse",
+        "--python",
+        "3.12",
+        "mcp-clickhouse"
+      ],
+      "disabled": true,
+      "env": {
+        "CLICKHOUSE_HOST": "${CLICKHOUSE_HOST}",
+        "CLICKHOUSE_USER": "${CLICKHOUSE_USER}",
+        "CLICKHOUSE_PASSWORD": "${CLICKHOUSE_PASSWORD}"
+      }
+    },
+    "neo4j": {
+      "command": "python3",
+      "args": [
+        "-m",
+        "neo4j_mcp_server"
+      ],
+      "disabled": true,
+      "env": {
+        "NEO4J_MCP_URI": "${NEO4J_MCP_URI}",
+        "NEO4J_MCP_USERNAME": "${NEO4J_MCP_USERNAME}",
+        "NEO4J_MCP_PASSWORD": "${NEO4J_MCP_PASSWORD}",
+        "NEO4J_MCP_READ_ONLY": "true",
+        "NEO4J_MCP_TELEMETRY": "false"
+      }
+    },
+    "netlify": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@netlify/mcp"
+      ],
+      "disabled": true
+    },
+    "heroku": {
+      "command": "heroku",
+      "args": [
+        "mcp:start"
+      ],
+      "disabled": true
+    },
+    "postman": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@postman/postman-mcp-server"
+      ],
+      "disabled": true,
+      "env": {
+        "POSTMAN_API_KEY": "${POSTMAN_API_KEY}"
+      }
+    },
+    "perplexity-ask": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@perplexity-ai/mcp-server"
+      ],
+      "disabled": true,
+      "env": {
+        "PERPLEXITY_API_KEY": "${PERPLEXITY_API_KEY}"
+      }
+    },
+    "sonarqube": {
+      "command": "docker",
+      "args": [
+        "run",
+        "--init",
+        "-i",
+        "--rm",
+        "-e",
+        "SONARQUBE_TOKEN",
+        "-e",
+        "SONARQUBE_ORG",
+        "sonarsource/sonarqube-mcp"
+      ],
+      "disabled": true,
+      "env": {
+        "SONARQUBE_TOKEN": "${SONARQUBE_TOKEN}",
+        "SONARQUBE_ORG": "${SONARQUBE_ORG}"
+      }
+    },
+    "crowdstrike": {
+      "command": "uvx",
+      "args": [
+        "--env-file",
+        "${CROWDSTRIKE_ENV_FILE}",
+        "falcon-mcp"
+      ],
+      "disabled": true
+    },
+    "endor-labs": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "endorctl",
+        "ai-tools",
+        "mcp-server"
+      ],
+      "disabled": true
+    },
+    "arize": {
+      "command": "uvx",
+      "args": [
+        "arize-tracing-assistant@latest"
+      ],
+      "disabled": true
+    },
+    "firebase": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "firebase-tools@latest",
+        "mcp"
+      ],
+      "disabled": true
+    },
+    "chrome-devtools": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "chrome-devtools-mcp@latest",
+        "--headless",
+        "--executablePath=/usr/bin/chromium"
+      ],
+      "disabled": true
+    },
+    "dart": {
+      "command": "dart",
+      "args": [
+        "mcp-server"
+      ],
+      "disabled": true
+    },
+    "google-flutter-dart": {
+      "command": "dart",
+      "args": [
+        "mcp-server"
+      ],
+      "disabled": true
+    },
+    "google-go": {
+      "command": "gopls",
+      "args": [
+        "mcp"
+      ],
+      "disabled": true
+    },
+    "google-angular": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@angular/cli@latest",
+        "mcp"
+      ],
+      "disabled": true
+    },
+    "cloud-cli-execution": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@google-cloud/gcloud-mcp"
+      ],
+      "disabled": true
+    },
+    "google-gcloud-cli": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@google-cloud/gcloud-mcp"
+      ],
+      "disabled": true
+    },
+    "google-google-cloud-storage": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@google-cloud/storage-mcp"
+      ],
+      "disabled": true
+    },
+    "google-google-cloud-observability": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@google-cloud/observability-mcp"
+      ],
+      "disabled": true
+    },
+    "google-google-analytics": {
+      "command": "pipx",
+      "args": [
+        "run",
+        "analytics-mcp"
+      ],
+      "disabled": true
+    },
+    "google-google-workspace": {
+      "command": "node",
+      "args": [
+        "${GOOGLE_WORKSPACE_EXTENSION_DIR}/scripts/start.js"
+      ],
+      "disabled": true,
+      "cwd": "${GOOGLE_WORKSPACE_EXTENSION_DIR}"
+    },
+    "looker": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@toolbox-sdk/server",
+        "--prebuilt",
+        "looker",
+        "--stdio"
+      ],
+      "disabled": true,
+      "env": {
+        "LOOKER_BASE_URL": "${LOOKER_BASE_URL}",
+        "LOOKER_CLIENT_ID": "${LOOKER_CLIENT_ID}",
+        "LOOKER_CLIENT_SECRET": "${LOOKER_CLIENT_SECRET}"
+      }
+    },
+    "mcp-toolbox-for-databases": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@toolbox-sdk/server",
+        "--tools-file",
+        "${TOOLBOX_TOOLS_FILE}",
+        "--stdio"
+      ],
+      "disabled": true
+    },
+    "alloydb-for-postgresql": {
+      "serverUrl": "https://alloydb.googleapis.com/mcp",
+      "disabled": true,
+      "authProviderType": "google_credentials"
+    },
+    "bigquery": {
+      "serverUrl": "https://bigquery.googleapis.com/mcp",
+      "disabled": true,
+      "authProviderType": "google_credentials"
+    },
+    "bigtable-admin-remote-mcp": {
+      "serverUrl": "https://bigtableadmin.googleapis.com/mcp",
+      "disabled": true,
+      "authProviderType": "google_credentials"
+    },
+    "cloud-sql-mysql-postgresql-sql-server-managed": {
+      "serverUrl": "https://sqladmin.googleapis.com/mcp",
+      "disabled": true,
+      "authProviderType": "google_credentials"
+    },
+    "dataplex": {
+      "serverUrl": "https://dataplex.googleapis.com/mcp",
+      "disabled": true,
+      "authProviderType": "google_credentials"
+    },
+    "spanner": {
+      "serverUrl": "https://spanner.googleapis.com/mcp",
+      "disabled": true,
+      "authProviderType": "google_credentials"
+    },
+    "apigee-mcp": {
+      "serverUrl": "https://apihub.googleapis.com/mcp",
+      "disabled": true,
+      "authProviderType": "google_credentials"
+    },
+    "gke-onemcp": {
+      "serverUrl": "https://container.googleapis.com/mcp",
+      "disabled": true,
+      "authProviderType": "google_credentials"
+    },
+    "cloud-audit-manager": {
+      "serverUrl": "https://auditmanager.googleapis.com/mcp",
+      "disabled": true,
+      "authProviderType": "google_credentials"
+    },
+    "google-cloud-quotas": {
+      "serverUrl": "https://cloudquotas.googleapis.com/mcp",
+      "disabled": true,
+      "authProviderType": "google_credentials"
+    },
+    "google-cloud-resource-manager": {
+      "serverUrl": "https://cloudresourcemanager.googleapis.com/mcp",
+      "disabled": true,
+      "authProviderType": "google_credentials"
+    },
+    "google-cloud-sql-for-postgresql": {
+      "serverUrl": "https://sqladmin.googleapis.com/mcp",
+      "disabled": true,
+      "authProviderType": "google_credentials"
+    },
+    "google-cloud-sql-for-sql-server": {
+      "serverUrl": "https://sqladmin.googleapis.com/mcp",
+      "disabled": true,
+      "authProviderType": "google_credentials"
+    },
+    "google-compute-engine-gce": {
+      "serverUrl": "https://compute.googleapis.com/mcp",
+      "disabled": true,
+      "authProviderType": "google_credentials"
+    },
+    "google-firestore": {
+      "serverUrl": "https://firestore.googleapis.com/mcp",
+      "disabled": true,
+      "authProviderType": "google_credentials"
+    },
+    "google-kubernetes-engine-gke": {
+      "serverUrl": "https://container.googleapis.com/mcp",
+      "disabled": true,
+      "authProviderType": "google_credentials"
+    },
+    "google-cloud-run": {
+      "serverUrl": "https://run.googleapis.com/mcp",
+      "disabled": true,
+      "authProviderType": "google_credentials"
+    },
+    "google-cloud-storage": {
+      "serverUrl": "https://storage.googleapis.com/storage/mcp",
+      "disabled": true,
+      "authProviderType": "google_credentials"
+    },
+    "home-developer-mcp": {
+      "serverUrl": "https://homedevelopers.googleapis.com/mcp",
+      "disabled": true,
+      "authProviderType": "google_credentials"
+    },
+    "google-developer-knowledge-api-google-developer-documentation": {
+      "serverUrl": "https://developerknowledge.googleapis.com/mcp",
+      "disabled": true,
+      "headers": {
+        "X-Goog-Api-Key": "${GOOGLE_DEVELOPER_KNOWLEDGE_API_KEY}"
+      }
+    },
+    "google-google-maps-grounding-lite": {
+      "serverUrl": "https://mapstools.googleapis.com/mcp",
+      "disabled": true,
+      "headers": {
+        "X-Goog-Api-Key": "${GOOGLE_MAPS_API_KEY}"
+      }
+    },
+    "google-google-maps-platform-code-assist-toolkit": {
+      "serverUrl": "https://mapscodeassist.googleapis.com/mcp",
+      "disabled": true,
+      "headers": {
+        "X-Goog-Api-Key": "${GOOGLE_MAPS_API_KEY}"
+      }
+    },
+    "salesforce": {
+      "serverUrl": "https://api.salesforce.com/platform/mcp/v1/platform/sobject-all",
+      "disabled": true
+    },
+    "genmedia-nanobanana": {
+      "command": "mcp-nanobanana-go",
+      "args": [],
+      "disabled": true,
+      "env": {
+        "PROJECT_ID": "${GOOGLE_CLOUD_PROJECT}",
+        "LOCATION": "${GOOGLE_CLOUD_LOCATION}",
+        "GENMEDIA_BUCKET": "${GENMEDIA_BUCKET}"
+      }
+    },
+    "genmedia-gemini": {
+      "command": "mcp-gemini-go",
+      "args": [],
+      "disabled": true,
+      "env": {
+        "PROJECT_ID": "${GOOGLE_CLOUD_PROJECT}",
+        "LOCATION": "${GOOGLE_CLOUD_LOCATION}",
+        "GENMEDIA_BUCKET": "${GENMEDIA_BUCKET}"
+      }
+    },
+    "genmedia-imagen": {
+      "command": "mcp-imagen-go",
+      "args": [],
+      "disabled": true,
+      "env": {
+        "PROJECT_ID": "${GOOGLE_CLOUD_PROJECT}",
+        "LOCATION": "${GOOGLE_CLOUD_LOCATION}",
+        "GENMEDIA_BUCKET": "${GENMEDIA_BUCKET}"
+      }
+    },
+    "genmedia-veo": {
+      "command": "mcp-veo-go",
+      "args": [],
+      "disabled": true,
+      "env": {
+        "PROJECT_ID": "${GOOGLE_CLOUD_PROJECT}",
+        "LOCATION": "${GOOGLE_CLOUD_LOCATION}",
+        "GENMEDIA_BUCKET": "${GENMEDIA_BUCKET}"
+      }
+    },
+    "genmedia-lyria": {
+      "command": "mcp-lyria-go",
+      "args": [],
+      "disabled": true,
+      "env": {
+        "PROJECT_ID": "${GOOGLE_CLOUD_PROJECT}",
+        "LOCATION": "${GOOGLE_CLOUD_LOCATION}",
+        "GENMEDIA_BUCKET": "${GENMEDIA_BUCKET}"
+      }
+    },
+    "genmedia-avtool": {
+      "command": "mcp-avtool-go",
+      "args": [],
+      "disabled": true,
+      "env": {
+        "PROJECT_ID": "${GOOGLE_CLOUD_PROJECT}",
+        "LOCATION": "${GOOGLE_CLOUD_LOCATION}",
+        "GENMEDIA_BUCKET": "${GENMEDIA_BUCKET}"
+      }
+    },
+    "genmedia-omni": {
+      "command": "mcp-omni-go",
+      "args": [],
+      "disabled": true,
+      "env": {
+        "PROJECT_ID": "${GOOGLE_CLOUD_PROJECT}",
+        "LOCATION": "${GOOGLE_CLOUD_LOCATION}",
+        "GENMEDIA_BUCKET": "${GENMEDIA_BUCKET}"
+      }
+    },
+    "google-managed-agentregistry-mcp": {
+      "serverUrl": "https://agentregistry.googleapis.com/mcp",
+      "disabled": true,
+      "authProviderType": "google_credentials"
+    },
+    "google-managed-aiplatform-mcp-endpoints": {
+      "serverUrl": "https://aiplatform.googleapis.com/mcp/endpoints",
+      "disabled": true,
+      "authProviderType": "google_credentials"
+    },
+    "google-managed-aiplatform-mcp-evaluation": {
+      "serverUrl": "https://aiplatform.googleapis.com/mcp/evaluation",
+      "disabled": true,
+      "authProviderType": "google_credentials"
+    },
+    "google-managed-aiplatform-mcp-generate": {
+      "serverUrl": "https://aiplatform.googleapis.com/mcp/generate",
+      "disabled": true,
+      "authProviderType": "google_credentials"
+    },
+    "google-managed-aiplatform-mcp-models": {
+      "serverUrl": "https://aiplatform.googleapis.com/mcp/models",
+      "disabled": true,
+      "authProviderType": "google_credentials"
+    },
+    "google-managed-aiplatform-mcp-notebook": {
+      "serverUrl": "https://aiplatform.googleapis.com/mcp/notebook",
+      "disabled": true,
+      "authProviderType": "google_credentials"
+    },
+    "google-managed-aiplatform-mcp-predict": {
+      "serverUrl": "https://aiplatform.googleapis.com/mcp/predict",
+      "disabled": true,
+      "authProviderType": "google_credentials"
+    },
+    "google-managed-aiplatform-mcp-prompts": {
+      "serverUrl": "https://aiplatform.googleapis.com/mcp/prompts",
+      "disabled": true,
+      "authProviderType": "google_credentials"
+    },
+    "google-managed-aiplatform-mcp-retrieval": {
+      "serverUrl": "https://aiplatform.googleapis.com/mcp/retrieval",
+      "disabled": true,
+      "authProviderType": "google_credentials"
+    },
+    "google-managed-aiplatform-mcp-tuning": {
+      "serverUrl": "https://aiplatform.googleapis.com/mcp/tuning",
+      "disabled": true,
+      "authProviderType": "google_credentials"
+    },
+    "google-managed-androidmanagement-mcp": {
+      "serverUrl": "https://androidmanagement.googleapis.com/mcp",
+      "disabled": true,
+      "authProviderType": "google_credentials"
+    },
+    "google-managed-apikeys-mcp": {
+      "serverUrl": "https://apikeys.googleapis.com/mcp",
+      "disabled": true,
+      "authProviderType": "google_credentials"
+    },
+    "google-managed-appoptimize-mcp": {
+      "serverUrl": "https://appoptimize.googleapis.com/mcp",
+      "disabled": true,
+      "authProviderType": "google_credentials"
+    },
+    "google-managed-apptopology-mcp": {
+      "serverUrl": "https://apptopology.googleapis.com/mcp",
+      "disabled": true,
+      "authProviderType": "google_credentials"
+    },
+    "google-managed-backupdr-mcp": {
+      "serverUrl": "https://backupdr.googleapis.com/mcp",
+      "disabled": true,
+      "authProviderType": "google_credentials"
+    },
+    "google-managed-bigquerydatatransfer-mcp": {
+      "serverUrl": "https://bigquerydatatransfer.googleapis.com/mcp",
+      "disabled": true,
+      "authProviderType": "google_credentials"
+    },
+    "google-managed-bigquerymigration-mcp": {
+      "serverUrl": "https://bigquerymigration.googleapis.com/mcp",
+      "disabled": true,
+      "authProviderType": "google_credentials"
+    },
+    "google-managed-calendarmcp-mcp-v1": {
+      "serverUrl": "https://calendarmcp.googleapis.com/mcp/v1",
+      "disabled": true,
+      "authProviderType": "google_credentials"
+    },
+    "google-managed-chatmcp-mcp-v1": {
+      "serverUrl": "https://chatmcp.googleapis.com/mcp/v1",
+      "disabled": true,
+      "authProviderType": "google_credentials"
+    },
+    "google-managed-cloud-mcp": {
+      "serverUrl": "https://cloud.googleapis.com/mcp",
+      "disabled": true,
+      "authProviderType": "google_credentials"
+    },
+    "google-managed-cloudasset-mcp": {
+      "serverUrl": "https://cloudasset.googleapis.com/mcp",
+      "disabled": true,
+      "authProviderType": "google_credentials"
+    },
+    "google-managed-cloudbilling-mcp": {
+      "serverUrl": "https://cloudbilling.googleapis.com/mcp",
+      "disabled": true,
+      "authProviderType": "google_credentials"
+    },
+    "google-managed-cloudcli-mcp": {
+      "serverUrl": "https://cloudcli.googleapis.com/mcp",
+      "disabled": true,
+      "authProviderType": "google_credentials"
+    },
+    "google-managed-clouderrorreporting-mcp": {
+      "serverUrl": "https://clouderrorreporting.googleapis.com/mcp",
+      "disabled": true,
+      "authProviderType": "google_credentials"
+    },
+    "google-managed-cloudlocationfinder-mcp": {
+      "serverUrl": "https://cloudlocationfinder.googleapis.com/mcp",
+      "disabled": true,
+      "authProviderType": "google_credentials"
+    },
+    "google-managed-cloudproductregistry-mcp": {
+      "serverUrl": "https://cloudproductregistry.googleapis.com/mcp",
+      "disabled": true,
+      "authProviderType": "google_credentials"
+    },
+    "google-managed-cloudsupport-mcp": {
+      "serverUrl": "https://cloudsupport.googleapis.com/mcp",
+      "disabled": true,
+      "authProviderType": "google_credentials"
+    },
+    "google-managed-cloudtrace-mcp": {
+      "serverUrl": "https://cloudtrace.googleapis.com/mcp",
+      "disabled": true,
+      "authProviderType": "google_credentials"
+    },
+    "google-managed-databasecenter-mcp": {
+      "serverUrl": "https://databasecenter.googleapis.com/mcp",
+      "disabled": true,
+      "authProviderType": "google_credentials"
+    },
+    "google-managed-databaseinsights-mcp": {
+      "serverUrl": "https://databaseinsights.googleapis.com/mcp",
+      "disabled": true,
+      "authProviderType": "google_credentials"
+    },
+    "google-managed-dataform-mcp": {
+      "serverUrl": "https://dataform.googleapis.com/mcp",
+      "disabled": true,
+      "authProviderType": "google_credentials"
+    },
+    "google-managed-datalineage-mcp": {
+      "serverUrl": "https://datalineage.googleapis.com/mcp",
+      "disabled": true,
+      "authProviderType": "google_credentials"
+    },
+    "google-managed-datamigration-mcp": {
+      "serverUrl": "https://datamigration.googleapis.com/mcp",
+      "disabled": true,
+      "authProviderType": "google_credentials"
+    },
+    "google-managed-dataplex-mcp-data-products": {
+      "serverUrl": "https://dataplex.googleapis.com/mcp/data-products",
+      "disabled": true,
+      "authProviderType": "google_credentials"
+    },
+    "google-managed-dataproc-mcp": {
+      "serverUrl": "https://dataproc.googleapis.com/mcp",
+      "disabled": true,
+      "authProviderType": "google_credentials"
+    },
+    "google-managed-datastream-mcp": {
+      "serverUrl": "https://datastream.googleapis.com/mcp",
+      "disabled": true,
+      "authProviderType": "google_credentials"
+    },
+    "google-managed-design-mcp": {
+      "serverUrl": "https://design.googleapis.com/mcp",
+      "disabled": true,
+      "authProviderType": "google_credentials"
+    },
+    "google-managed-discoveryengine-mcp": {
+      "serverUrl": "https://discoveryengine.googleapis.com/mcp",
+      "disabled": true,
+      "authProviderType": "google_credentials"
+    },
+    "google-managed-drivemcp-mcp-v1": {
+      "serverUrl": "https://drivemcp.googleapis.com/mcp/v1",
+      "disabled": true,
+      "authProviderType": "google_credentials"
+    },
+    "google-managed-file-mcp": {
+      "serverUrl": "https://file.googleapis.com/mcp",
+      "disabled": true,
+      "authProviderType": "google_credentials"
+    },
+    "google-managed-firebasedataconnect-mcp": {
+      "serverUrl": "https://firebasedataconnect.googleapis.com/mcp",
+      "disabled": true,
+      "authProviderType": "google_credentials"
+    },
+    "google-managed-geminicloudassist-mcp": {
+      "serverUrl": "https://geminicloudassist.googleapis.com/mcp",
+      "disabled": true,
+      "authProviderType": "google_credentials"
+    },
+    "google-managed-gmailmcp-mcp-v1": {
+      "serverUrl": "https://gmailmcp.googleapis.com/mcp/v1",
+      "disabled": true,
+      "authProviderType": "google_credentials"
+    },
+    "google-managed-home-mcp": {
+      "serverUrl": "https://home.googleapis.com/mcp",
+      "disabled": true,
+      "authProviderType": "google_credentials"
+    },
+    "google-managed-iam-mcp": {
+      "serverUrl": "https://iam.googleapis.com/mcp",
+      "disabled": true,
+      "authProviderType": "google_credentials"
+    },
+    "google-managed-logging-mcp": {
+      "serverUrl": "https://logging.googleapis.com/mcp",
+      "disabled": true,
+      "authProviderType": "google_credentials"
+    },
+    "google-managed-maintenance-mcp": {
+      "serverUrl": "https://maintenance.googleapis.com/mcp",
+      "disabled": true,
+      "authProviderType": "google_credentials"
+    },
+    "google-managed-managedkafka-mcp": {
+      "serverUrl": "https://managedkafka.googleapis.com/mcp",
+      "disabled": true,
+      "authProviderType": "google_credentials"
+    },
+    "google-managed-memorystore-mcp": {
+      "serverUrl": "https://memorystore.googleapis.com/mcp",
+      "disabled": true,
+      "authProviderType": "google_credentials"
+    },
+    "google-managed-monitoring-mcp": {
+      "serverUrl": "https://monitoring.googleapis.com/mcp",
+      "disabled": true,
+      "authProviderType": "google_credentials"
+    },
+    "google-managed-netapp-mcp": {
+      "serverUrl": "https://netapp.googleapis.com/mcp",
+      "disabled": true,
+      "authProviderType": "google_credentials"
+    },
+    "google-managed-networkmanagement-mcp": {
+      "serverUrl": "https://networkmanagement.googleapis.com/mcp",
+      "disabled": true,
+      "authProviderType": "google_credentials"
+    },
+    "google-managed-oracledatabase-mcp": {
+      "serverUrl": "https://oracledatabase.googleapis.com/mcp",
+      "disabled": true,
+      "authProviderType": "google_credentials"
+    },
+    "google-managed-orgpolicy-mcp": {
+      "serverUrl": "https://orgpolicy.googleapis.com/mcp",
+      "disabled": true,
+      "authProviderType": "google_credentials"
+    },
+    "google-managed-paydeveloper-mcp": {
+      "serverUrl": "https://paydeveloper.googleapis.com/mcp",
+      "disabled": true,
+      "authProviderType": "google_credentials"
+    },
+    "google-managed-people-mcp-v1": {
+      "serverUrl": "https://people.googleapis.com/mcp/v1",
+      "disabled": true,
+      "authProviderType": "google_credentials"
+    },
+    "google-managed-policyassist-mcp": {
+      "serverUrl": "https://policyassist.googleapis.com/mcp",
+      "disabled": true,
+      "authProviderType": "google_credentials"
+    },
+    "google-managed-policytroubleshooter-mcp": {
+      "serverUrl": "https://policytroubleshooter.googleapis.com/mcp",
+      "disabled": true,
+      "authProviderType": "google_credentials"
+    },
+    "google-managed-pubsub-mcp": {
+      "serverUrl": "https://pubsub.googleapis.com/mcp",
+      "disabled": true,
+      "authProviderType": "google_credentials"
+    },
+    "google-managed-recommender-mcp": {
+      "serverUrl": "https://recommender.googleapis.com/mcp",
+      "disabled": true,
+      "authProviderType": "google_credentials"
+    },
+    "google-managed-redis-mcp": {
+      "serverUrl": "https://redis.googleapis.com/mcp",
+      "disabled": true,
+      "authProviderType": "google_credentials"
+    },
+    "google-managed-saasservicemgmt-mcp": {
+      "serverUrl": "https://saasservicemgmt.googleapis.com/mcp",
+      "disabled": true,
+      "authProviderType": "google_credentials"
+    },
+    "google-managed-securitycenter-mcp-investigate": {
+      "serverUrl": "https://securitycenter.googleapis.com/mcp/investigate",
+      "disabled": true,
+      "authProviderType": "google_credentials"
+    },
+    "google-managed-securitycentermanagement-mcp-manage-services": {
+      "serverUrl": "https://securitycentermanagement.googleapis.com/mcp/manage-services",
+      "disabled": true,
+      "authProviderType": "google_credentials"
+    },
+    "google-managed-servicehealth-mcp": {
+      "serverUrl": "https://servicehealth.googleapis.com/mcp",
+      "disabled": true,
+      "authProviderType": "google_credentials"
+    },
+    "google-managed-stitch-mcp": {
+      "serverUrl": "https://stitch.googleapis.com/mcp",
+      "disabled": true,
+      "authProviderType": "google_credentials"
+    },
+    "google-managed-vectorsearch-mcp": {
+      "serverUrl": "https://vectorsearch.googleapis.com/mcp",
+      "disabled": true,
+      "authProviderType": "google_credentials"
+    },
+    "canva": {
+      "serverUrl": "https://api.canva.com/connect/v1/mcp",
+      "disabled": true
+    },
+    "mobbin-mcp": {
+      "serverUrl": "https://api.mobbin.com/mcp",
+      "disabled": true
+    },
+    "mabl": {
+      "serverUrl": "https://mcp.mabl.com/mcp",
+      "disabled": true
+    },
+    "docusign": {
+      "serverUrl": "https://mcp-d.docusign.com/mcp",
+      "disabled": true,
+      "oauth": {
+        "clientId": "${DOCUSIGN_CLIENT_ID}",
+        "clientSecret": "${DOCUSIGN_CLIENT_SECRET}"
+      }
+    },
+    "windsor-ai": {
+      "serverUrl": "https://mcp.windsor.ai/",
+      "disabled": true
+    },
+    "courtroom5": {
+      "serverUrl": "https://mcp.courtroom5.com/v1",
+      "disabled": true
+    },
+    "lseg": {
+      "serverUrl": "https://api.analytics.lseg.com/lfa/mcp",
+      "disabled": true
+    },
+    "airweave": {
+      "serverUrl": "https://mcp.airweave.ai/mcp",
+      "disabled": true,
+      "headers": {
+        "X-Collection-Readable-ID": "${AIRWEAVE_COLLECTION}"
+      }
+    },
+    "splunk": {
+      "serverUrl": "${SPLUNK_MCP_URL}",
+      "disabled": true,
+      "headers": {
+        "Authorization": "Bearer ${SPLUNK_MCP_TOKEN}"
+      }
+    },
+    "s-p-global": {
+      "command": "python3",
+      "args": [
+        "-m",
+        "kfinance.mcp",
+        "--stdio"
+      ],
+      "disabled": true
+    },
+    "google-security-secops": {
+      "command": "uvx",
+      "args": [
+        "--from",
+        "google-secops-mcp",
+        "secops_mcp"
+      ],
+      "disabled": true
+    },
+    "google-security-gti": {
+      "command": "uvx",
+      "args": [
+        "--from",
+        "gti-mcp",
+        "gti_mcp"
+      ],
+      "disabled": true
+    },
+    "google-security-scc": {
+      "command": "uvx",
+      "args": [
+        "--from",
+        "scc-mcp",
+        "scc_mcp"
+      ],
+      "disabled": true
+    },
+    "google-security-soar": {
+      "command": "uvx",
+      "args": [
+        "--from",
+        "secops-soar-mcp",
+        "secops_soar_mcp"
+      ],
+      "disabled": true
+    },
+    "harvey": {
+      "serverUrl": "https://api.harvey.ai/hosted_mcp/mcp",
+      "disabled": true
+    },
+    "finnhub": {
+      "serverUrl": "https://mcp.finnhub.io/mcp",
+      "disabled": true
+    },
+    "google-google-security-operations-chronicle": {
+      "serverUrl": "https://chronicle.${GOOGLE_SECOPS_REGION}.rep.googleapis.com/mcp",
+      "disabled": true,
+      "authProviderType": "google_credentials"
+    }
+  }
+}

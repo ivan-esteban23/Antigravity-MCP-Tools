@@ -1,0 +1,2252 @@
+{
+  "mcpServers": {
+    "africa-south1-aiplatform-mcp-endpoints": {
+      "serverUrl": "https://africa-south1-aiplatform.googleapis.com/mcp/endpoints",
+      "disabled": true
+    },
+    "africa-south1-aiplatform-mcp-evaluation": {
+      "serverUrl": "https://africa-south1-aiplatform.googleapis.com/mcp/evaluation",
+      "disabled": true
+    },
+    "africa-south1-aiplatform-mcp-generate": {
+      "serverUrl": "https://africa-south1-aiplatform.googleapis.com/mcp/generate",
+      "disabled": true
+    },
+    "africa-south1-aiplatform-mcp-models": {
+      "serverUrl": "https://africa-south1-aiplatform.googleapis.com/mcp/models",
+      "disabled": true
+    },
+    "africa-south1-aiplatform-mcp-notebook": {
+      "serverUrl": "https://africa-south1-aiplatform.googleapis.com/mcp/notebook",
+      "disabled": true
+    },
+    "africa-south1-aiplatform-mcp-predict": {
+      "serverUrl": "https://africa-south1-aiplatform.googleapis.com/mcp/predict",
+      "disabled": true
+    },
+    "africa-south1-aiplatform-mcp-prompts": {
+      "serverUrl": "https://africa-south1-aiplatform.googleapis.com/mcp/prompts",
+      "disabled": true
+    },
+    "africa-south1-aiplatform-mcp-retrieval": {
+      "serverUrl": "https://africa-south1-aiplatform.googleapis.com/mcp/retrieval",
+      "disabled": true
+    },
+    "africa-south1-aiplatform-mcp-tuning": {
+      "serverUrl": "https://africa-south1-aiplatform.googleapis.com/mcp/tuning",
+      "disabled": true
+    },
+    "africa-south1-datalineage-mcp": {
+      "serverUrl": "https://africa-south1-datalineage.googleapis.com/mcp",
+      "disabled": true
+    },
+    "agentregistry-mcp": {
+      "serverUrl": "https://agentregistry.googleapis.com/mcp",
+      "disabled": true
+    },
+    "aiplatform-eu-rep-mcp-endpoints": {
+      "serverUrl": "https://aiplatform.eu.rep.googleapis.com/mcp/endpoints",
+      "disabled": true
+    },
+    "aiplatform-eu-rep-mcp-evaluation": {
+      "serverUrl": "https://aiplatform.eu.rep.googleapis.com/mcp/evaluation",
+      "disabled": true
+    },
+    "aiplatform-eu-rep-mcp-generate": {
+      "serverUrl": "https://aiplatform.eu.rep.googleapis.com/mcp/generate",
+      "disabled": true
+    },
+    "aiplatform-eu-rep-mcp-models": {
+      "serverUrl": "https://aiplatform.eu.rep.googleapis.com/mcp/models",
+      "disabled": true
+    },
+    "aiplatform-eu-rep-mcp-notebook": {
+      "serverUrl": "https://aiplatform.eu.rep.googleapis.com/mcp/notebook",
+      "disabled": true
+    },
+    "aiplatform-eu-rep-mcp-predict": {
+      "serverUrl": "https://aiplatform.eu.rep.googleapis.com/mcp/predict",
+      "disabled": true
+    },
+    "aiplatform-eu-rep-mcp-prompts": {
+      "serverUrl": "https://aiplatform.eu.rep.googleapis.com/mcp/prompts",
+      "disabled": true
+    },
+    "aiplatform-eu-rep-mcp-retrieval": {
+      "serverUrl": "https://aiplatform.eu.rep.googleapis.com/mcp/retrieval",
+      "disabled": true
+    },
+    "aiplatform-eu-rep-mcp-tuning": {
+      "serverUrl": "https://aiplatform.eu.rep.googleapis.com/mcp/tuning",
+      "disabled": true
+    },
+    "aiplatform-mcp-endpoints": {
+      "serverUrl": "https://aiplatform.googleapis.com/mcp/endpoints",
+      "disabled": true
+    },
+    "aiplatform-mcp-evaluation": {
+      "serverUrl": "https://aiplatform.googleapis.com/mcp/evaluation",
+      "disabled": true
+    },
+    "aiplatform-mcp-generate": {
+      "serverUrl": "https://aiplatform.googleapis.com/mcp/generate",
+      "disabled": true
+    },
+    "aiplatform-mcp-models": {
+      "serverUrl": "https://aiplatform.googleapis.com/mcp/models",
+      "disabled": true
+    },
+    "aiplatform-mcp-notebook": {
+      "serverUrl": "https://aiplatform.googleapis.com/mcp/notebook",
+      "disabled": true
+    },
+    "aiplatform-mcp-predict": {
+      "serverUrl": "https://aiplatform.googleapis.com/mcp/predict",
+      "disabled": true
+    },
+    "aiplatform-mcp-prompts": {
+      "serverUrl": "https://aiplatform.googleapis.com/mcp/prompts",
+      "disabled": true
+    },
+    "aiplatform-mcp-retrieval": {
+      "serverUrl": "https://aiplatform.googleapis.com/mcp/retrieval",
+      "disabled": true
+    },
+    "aiplatform-mcp-tuning": {
+      "serverUrl": "https://aiplatform.googleapis.com/mcp/tuning",
+      "disabled": true
+    },
+    "aiplatform-us-rep-mcp-endpoints": {
+      "serverUrl": "https://aiplatform.us.rep.googleapis.com/mcp/endpoints",
+      "disabled": true
+    },
+    "aiplatform-us-rep-mcp-evaluation": {
+      "serverUrl": "https://aiplatform.us.rep.googleapis.com/mcp/evaluation",
+      "disabled": true
+    },
+    "aiplatform-us-rep-mcp-generate": {
+      "serverUrl": "https://aiplatform.us.rep.googleapis.com/mcp/generate",
+      "disabled": true
+    },
+    "aiplatform-us-rep-mcp-models": {
+      "serverUrl": "https://aiplatform.us.rep.googleapis.com/mcp/models",
+      "disabled": true
+    },
+    "aiplatform-us-rep-mcp-notebook": {
+      "serverUrl": "https://aiplatform.us.rep.googleapis.com/mcp/notebook",
+      "disabled": true
+    },
+    "aiplatform-us-rep-mcp-predict": {
+      "serverUrl": "https://aiplatform.us.rep.googleapis.com/mcp/predict",
+      "disabled": true
+    },
+    "aiplatform-us-rep-mcp-prompts": {
+      "serverUrl": "https://aiplatform.us.rep.googleapis.com/mcp/prompts",
+      "disabled": true
+    },
+    "aiplatform-us-rep-mcp-retrieval": {
+      "serverUrl": "https://aiplatform.us.rep.googleapis.com/mcp/retrieval",
+      "disabled": true
+    },
+    "aiplatform-us-rep-mcp-tuning": {
+      "serverUrl": "https://aiplatform.us.rep.googleapis.com/mcp/tuning",
+      "disabled": true
+    },
+    "alloydb-mcp": {
+      "serverUrl": "https://alloydb.googleapis.com/mcp",
+      "disabled": true
+    },
+    "androidmanagement-mcp": {
+      "serverUrl": "https://androidmanagement.googleapis.com/mcp",
+      "disabled": true
+    },
+    "apihub-mcp": {
+      "serverUrl": "https://apihub.googleapis.com/mcp",
+      "disabled": true
+    },
+    "apikeys-mcp": {
+      "serverUrl": "https://apikeys.googleapis.com/mcp",
+      "disabled": true
+    },
+    "appoptimize-mcp": {
+      "serverUrl": "https://appoptimize.googleapis.com/mcp",
+      "disabled": true
+    },
+    "apptopology-mcp": {
+      "serverUrl": "https://apptopology.googleapis.com/mcp",
+      "disabled": true
+    },
+    "asia-east1-aiplatform-mcp-endpoints": {
+      "serverUrl": "https://asia-east1-aiplatform.googleapis.com/mcp/endpoints",
+      "disabled": true
+    },
+    "asia-east1-aiplatform-mcp-evaluation": {
+      "serverUrl": "https://asia-east1-aiplatform.googleapis.com/mcp/evaluation",
+      "disabled": true
+    },
+    "asia-east1-aiplatform-mcp-generate": {
+      "serverUrl": "https://asia-east1-aiplatform.googleapis.com/mcp/generate",
+      "disabled": true
+    },
+    "asia-east1-aiplatform-mcp-models": {
+      "serverUrl": "https://asia-east1-aiplatform.googleapis.com/mcp/models",
+      "disabled": true
+    },
+    "asia-east1-aiplatform-mcp-notebook": {
+      "serverUrl": "https://asia-east1-aiplatform.googleapis.com/mcp/notebook",
+      "disabled": true
+    },
+    "asia-east1-aiplatform-mcp-predict": {
+      "serverUrl": "https://asia-east1-aiplatform.googleapis.com/mcp/predict",
+      "disabled": true
+    },
+    "asia-east1-aiplatform-mcp-prompts": {
+      "serverUrl": "https://asia-east1-aiplatform.googleapis.com/mcp/prompts",
+      "disabled": true
+    },
+    "asia-east1-aiplatform-mcp-retrieval": {
+      "serverUrl": "https://asia-east1-aiplatform.googleapis.com/mcp/retrieval",
+      "disabled": true
+    },
+    "asia-east1-aiplatform-mcp-tuning": {
+      "serverUrl": "https://asia-east1-aiplatform.googleapis.com/mcp/tuning",
+      "disabled": true
+    },
+    "asia-east1-datalineage-mcp": {
+      "serverUrl": "https://asia-east1-datalineage.googleapis.com/mcp",
+      "disabled": true
+    },
+    "asia-east2-aiplatform-mcp-endpoints": {
+      "serverUrl": "https://asia-east2-aiplatform.googleapis.com/mcp/endpoints",
+      "disabled": true
+    },
+    "asia-east2-aiplatform-mcp-evaluation": {
+      "serverUrl": "https://asia-east2-aiplatform.googleapis.com/mcp/evaluation",
+      "disabled": true
+    },
+    "asia-east2-aiplatform-mcp-generate": {
+      "serverUrl": "https://asia-east2-aiplatform.googleapis.com/mcp/generate",
+      "disabled": true
+    },
+    "asia-east2-aiplatform-mcp-models": {
+      "serverUrl": "https://asia-east2-aiplatform.googleapis.com/mcp/models",
+      "disabled": true
+    },
+    "asia-east2-aiplatform-mcp-notebook": {
+      "serverUrl": "https://asia-east2-aiplatform.googleapis.com/mcp/notebook",
+      "disabled": true
+    },
+    "asia-east2-aiplatform-mcp-predict": {
+      "serverUrl": "https://asia-east2-aiplatform.googleapis.com/mcp/predict",
+      "disabled": true
+    },
+    "asia-east2-aiplatform-mcp-prompts": {
+      "serverUrl": "https://asia-east2-aiplatform.googleapis.com/mcp/prompts",
+      "disabled": true
+    },
+    "asia-east2-aiplatform-mcp-retrieval": {
+      "serverUrl": "https://asia-east2-aiplatform.googleapis.com/mcp/retrieval",
+      "disabled": true
+    },
+    "asia-east2-aiplatform-mcp-tuning": {
+      "serverUrl": "https://asia-east2-aiplatform.googleapis.com/mcp/tuning",
+      "disabled": true
+    },
+    "asia-east2-datalineage-mcp": {
+      "serverUrl": "https://asia-east2-datalineage.googleapis.com/mcp",
+      "disabled": true
+    },
+    "asia-northeast1-aiplatform-mcp-endpoints": {
+      "serverUrl": "https://asia-northeast1-aiplatform.googleapis.com/mcp/endpoints",
+      "disabled": true
+    },
+    "asia-northeast1-aiplatform-mcp-evaluation": {
+      "serverUrl": "https://asia-northeast1-aiplatform.googleapis.com/mcp/evaluation",
+      "disabled": true
+    },
+    "asia-northeast1-aiplatform-mcp-generate": {
+      "serverUrl": "https://asia-northeast1-aiplatform.googleapis.com/mcp/generate",
+      "disabled": true
+    },
+    "asia-northeast1-aiplatform-mcp-models": {
+      "serverUrl": "https://asia-northeast1-aiplatform.googleapis.com/mcp/models",
+      "disabled": true
+    },
+    "asia-northeast1-aiplatform-mcp-notebook": {
+      "serverUrl": "https://asia-northeast1-aiplatform.googleapis.com/mcp/notebook",
+      "disabled": true
+    },
+    "asia-northeast1-aiplatform-mcp-predict": {
+      "serverUrl": "https://asia-northeast1-aiplatform.googleapis.com/mcp/predict",
+      "disabled": true
+    },
+    "asia-northeast1-aiplatform-mcp-prompts": {
+      "serverUrl": "https://asia-northeast1-aiplatform.googleapis.com/mcp/prompts",
+      "disabled": true
+    },
+    "asia-northeast1-aiplatform-mcp-retrieval": {
+      "serverUrl": "https://asia-northeast1-aiplatform.googleapis.com/mcp/retrieval",
+      "disabled": true
+    },
+    "asia-northeast1-aiplatform-mcp-tuning": {
+      "serverUrl": "https://asia-northeast1-aiplatform.googleapis.com/mcp/tuning",
+      "disabled": true
+    },
+    "asia-northeast1-datalineage-mcp": {
+      "serverUrl": "https://asia-northeast1-datalineage.googleapis.com/mcp",
+      "disabled": true
+    },
+    "asia-northeast2-aiplatform-mcp-endpoints": {
+      "serverUrl": "https://asia-northeast2-aiplatform.googleapis.com/mcp/endpoints",
+      "disabled": true
+    },
+    "asia-northeast2-aiplatform-mcp-evaluation": {
+      "serverUrl": "https://asia-northeast2-aiplatform.googleapis.com/mcp/evaluation",
+      "disabled": true
+    },
+    "asia-northeast2-aiplatform-mcp-generate": {
+      "serverUrl": "https://asia-northeast2-aiplatform.googleapis.com/mcp/generate",
+      "disabled": true
+    },
+    "asia-northeast2-aiplatform-mcp-models": {
+      "serverUrl": "https://asia-northeast2-aiplatform.googleapis.com/mcp/models",
+      "disabled": true
+    },
+    "asia-northeast2-aiplatform-mcp-notebook": {
+      "serverUrl": "https://asia-northeast2-aiplatform.googleapis.com/mcp/notebook",
+      "disabled": true
+    },
+    "asia-northeast2-aiplatform-mcp-predict": {
+      "serverUrl": "https://asia-northeast2-aiplatform.googleapis.com/mcp/predict",
+      "disabled": true
+    },
+    "asia-northeast2-aiplatform-mcp-prompts": {
+      "serverUrl": "https://asia-northeast2-aiplatform.googleapis.com/mcp/prompts",
+      "disabled": true
+    },
+    "asia-northeast2-aiplatform-mcp-retrieval": {
+      "serverUrl": "https://asia-northeast2-aiplatform.googleapis.com/mcp/retrieval",
+      "disabled": true
+    },
+    "asia-northeast2-aiplatform-mcp-tuning": {
+      "serverUrl": "https://asia-northeast2-aiplatform.googleapis.com/mcp/tuning",
+      "disabled": true
+    },
+    "asia-northeast2-datalineage-mcp": {
+      "serverUrl": "https://asia-northeast2-datalineage.googleapis.com/mcp",
+      "disabled": true
+    },
+    "asia-northeast3-aiplatform-mcp-endpoints": {
+      "serverUrl": "https://asia-northeast3-aiplatform.googleapis.com/mcp/endpoints",
+      "disabled": true
+    },
+    "asia-northeast3-aiplatform-mcp-evaluation": {
+      "serverUrl": "https://asia-northeast3-aiplatform.googleapis.com/mcp/evaluation",
+      "disabled": true
+    },
+    "asia-northeast3-aiplatform-mcp-generate": {
+      "serverUrl": "https://asia-northeast3-aiplatform.googleapis.com/mcp/generate",
+      "disabled": true
+    },
+    "asia-northeast3-aiplatform-mcp-models": {
+      "serverUrl": "https://asia-northeast3-aiplatform.googleapis.com/mcp/models",
+      "disabled": true
+    },
+    "asia-northeast3-aiplatform-mcp-notebook": {
+      "serverUrl": "https://asia-northeast3-aiplatform.googleapis.com/mcp/notebook",
+      "disabled": true
+    },
+    "asia-northeast3-aiplatform-mcp-predict": {
+      "serverUrl": "https://asia-northeast3-aiplatform.googleapis.com/mcp/predict",
+      "disabled": true
+    },
+    "asia-northeast3-aiplatform-mcp-prompts": {
+      "serverUrl": "https://asia-northeast3-aiplatform.googleapis.com/mcp/prompts",
+      "disabled": true
+    },
+    "asia-northeast3-aiplatform-mcp-retrieval": {
+      "serverUrl": "https://asia-northeast3-aiplatform.googleapis.com/mcp/retrieval",
+      "disabled": true
+    },
+    "asia-northeast3-aiplatform-mcp-tuning": {
+      "serverUrl": "https://asia-northeast3-aiplatform.googleapis.com/mcp/tuning",
+      "disabled": true
+    },
+    "asia-northeast3-datalineage-mcp": {
+      "serverUrl": "https://asia-northeast3-datalineage.googleapis.com/mcp",
+      "disabled": true
+    },
+    "asia-south1-aiplatform-mcp-endpoints": {
+      "serverUrl": "https://asia-south1-aiplatform.googleapis.com/mcp/endpoints",
+      "disabled": true
+    },
+    "asia-south1-aiplatform-mcp-evaluation": {
+      "serverUrl": "https://asia-south1-aiplatform.googleapis.com/mcp/evaluation",
+      "disabled": true
+    },
+    "asia-south1-aiplatform-mcp-generate": {
+      "serverUrl": "https://asia-south1-aiplatform.googleapis.com/mcp/generate",
+      "disabled": true
+    },
+    "asia-south1-aiplatform-mcp-models": {
+      "serverUrl": "https://asia-south1-aiplatform.googleapis.com/mcp/models",
+      "disabled": true
+    },
+    "asia-south1-aiplatform-mcp-notebook": {
+      "serverUrl": "https://asia-south1-aiplatform.googleapis.com/mcp/notebook",
+      "disabled": true
+    },
+    "asia-south1-aiplatform-mcp-predict": {
+      "serverUrl": "https://asia-south1-aiplatform.googleapis.com/mcp/predict",
+      "disabled": true
+    },
+    "asia-south1-aiplatform-mcp-prompts": {
+      "serverUrl": "https://asia-south1-aiplatform.googleapis.com/mcp/prompts",
+      "disabled": true
+    },
+    "asia-south1-aiplatform-mcp-retrieval": {
+      "serverUrl": "https://asia-south1-aiplatform.googleapis.com/mcp/retrieval",
+      "disabled": true
+    },
+    "asia-south1-aiplatform-mcp-tuning": {
+      "serverUrl": "https://asia-south1-aiplatform.googleapis.com/mcp/tuning",
+      "disabled": true
+    },
+    "asia-south1-datalineage-mcp": {
+      "serverUrl": "https://asia-south1-datalineage.googleapis.com/mcp",
+      "disabled": true
+    },
+    "asia-south2-aiplatform-mcp-endpoints": {
+      "serverUrl": "https://asia-south2-aiplatform.googleapis.com/mcp/endpoints",
+      "disabled": true
+    },
+    "asia-south2-aiplatform-mcp-evaluation": {
+      "serverUrl": "https://asia-south2-aiplatform.googleapis.com/mcp/evaluation",
+      "disabled": true
+    },
+    "asia-south2-aiplatform-mcp-generate": {
+      "serverUrl": "https://asia-south2-aiplatform.googleapis.com/mcp/generate",
+      "disabled": true
+    },
+    "asia-south2-aiplatform-mcp-models": {
+      "serverUrl": "https://asia-south2-aiplatform.googleapis.com/mcp/models",
+      "disabled": true
+    },
+    "asia-south2-aiplatform-mcp-notebook": {
+      "serverUrl": "https://asia-south2-aiplatform.googleapis.com/mcp/notebook",
+      "disabled": true
+    },
+    "asia-south2-aiplatform-mcp-predict": {
+      "serverUrl": "https://asia-south2-aiplatform.googleapis.com/mcp/predict",
+      "disabled": true
+    },
+    "asia-south2-aiplatform-mcp-prompts": {
+      "serverUrl": "https://asia-south2-aiplatform.googleapis.com/mcp/prompts",
+      "disabled": true
+    },
+    "asia-south2-aiplatform-mcp-retrieval": {
+      "serverUrl": "https://asia-south2-aiplatform.googleapis.com/mcp/retrieval",
+      "disabled": true
+    },
+    "asia-south2-aiplatform-mcp-tuning": {
+      "serverUrl": "https://asia-south2-aiplatform.googleapis.com/mcp/tuning",
+      "disabled": true
+    },
+    "asia-south2-datalineage-mcp": {
+      "serverUrl": "https://asia-south2-datalineage.googleapis.com/mcp",
+      "disabled": true
+    },
+    "asia-southeast1-aiplatform-mcp-endpoints": {
+      "serverUrl": "https://asia-southeast1-aiplatform.googleapis.com/mcp/endpoints",
+      "disabled": true
+    },
+    "asia-southeast1-aiplatform-mcp-evaluation": {
+      "serverUrl": "https://asia-southeast1-aiplatform.googleapis.com/mcp/evaluation",
+      "disabled": true
+    },
+    "asia-southeast1-aiplatform-mcp-generate": {
+      "serverUrl": "https://asia-southeast1-aiplatform.googleapis.com/mcp/generate",
+      "disabled": true
+    },
+    "asia-southeast1-aiplatform-mcp-models": {
+      "serverUrl": "https://asia-southeast1-aiplatform.googleapis.com/mcp/models",
+      "disabled": true
+    },
+    "asia-southeast1-aiplatform-mcp-notebook": {
+      "serverUrl": "https://asia-southeast1-aiplatform.googleapis.com/mcp/notebook",
+      "disabled": true
+    },
+    "asia-southeast1-aiplatform-mcp-predict": {
+      "serverUrl": "https://asia-southeast1-aiplatform.googleapis.com/mcp/predict",
+      "disabled": true
+    },
+    "asia-southeast1-aiplatform-mcp-prompts": {
+      "serverUrl": "https://asia-southeast1-aiplatform.googleapis.com/mcp/prompts",
+      "disabled": true
+    },
+    "asia-southeast1-aiplatform-mcp-retrieval": {
+      "serverUrl": "https://asia-southeast1-aiplatform.googleapis.com/mcp/retrieval",
+      "disabled": true
+    },
+    "asia-southeast1-aiplatform-mcp-tuning": {
+      "serverUrl": "https://asia-southeast1-aiplatform.googleapis.com/mcp/tuning",
+      "disabled": true
+    },
+    "asia-southeast1-datalineage-mcp": {
+      "serverUrl": "https://asia-southeast1-datalineage.googleapis.com/mcp",
+      "disabled": true
+    },
+    "asia-southeast2-aiplatform-mcp-endpoints": {
+      "serverUrl": "https://asia-southeast2-aiplatform.googleapis.com/mcp/endpoints",
+      "disabled": true
+    },
+    "asia-southeast2-aiplatform-mcp-evaluation": {
+      "serverUrl": "https://asia-southeast2-aiplatform.googleapis.com/mcp/evaluation",
+      "disabled": true
+    },
+    "asia-southeast2-aiplatform-mcp-generate": {
+      "serverUrl": "https://asia-southeast2-aiplatform.googleapis.com/mcp/generate",
+      "disabled": true
+    },
+    "asia-southeast2-aiplatform-mcp-models": {
+      "serverUrl": "https://asia-southeast2-aiplatform.googleapis.com/mcp/models",
+      "disabled": true
+    },
+    "asia-southeast2-aiplatform-mcp-notebook": {
+      "serverUrl": "https://asia-southeast2-aiplatform.googleapis.com/mcp/notebook",
+      "disabled": true
+    },
+    "asia-southeast2-aiplatform-mcp-predict": {
+      "serverUrl": "https://asia-southeast2-aiplatform.googleapis.com/mcp/predict",
+      "disabled": true
+    },
+    "asia-southeast2-aiplatform-mcp-prompts": {
+      "serverUrl": "https://asia-southeast2-aiplatform.googleapis.com/mcp/prompts",
+      "disabled": true
+    },
+    "asia-southeast2-aiplatform-mcp-retrieval": {
+      "serverUrl": "https://asia-southeast2-aiplatform.googleapis.com/mcp/retrieval",
+      "disabled": true
+    },
+    "asia-southeast2-aiplatform-mcp-tuning": {
+      "serverUrl": "https://asia-southeast2-aiplatform.googleapis.com/mcp/tuning",
+      "disabled": true
+    },
+    "asia-southeast2-datalineage-mcp": {
+      "serverUrl": "https://asia-southeast2-datalineage.googleapis.com/mcp",
+      "disabled": true
+    },
+    "auditmanager-europe-west1-rep-mcp": {
+      "serverUrl": "https://auditmanager.europe-west1.rep.googleapis.com/mcp",
+      "disabled": true
+    },
+    "auditmanager-mcp": {
+      "serverUrl": "https://auditmanager.googleapis.com/mcp",
+      "disabled": true
+    },
+    "auditmanager-us-central1-rep-mcp": {
+      "serverUrl": "https://auditmanager.us-central1.rep.googleapis.com/mcp",
+      "disabled": true
+    },
+    "australia-southeast1-aiplatform-mcp-endpoints": {
+      "serverUrl": "https://australia-southeast1-aiplatform.googleapis.com/mcp/endpoints",
+      "disabled": true
+    },
+    "australia-southeast1-aiplatform-mcp-evaluation": {
+      "serverUrl": "https://australia-southeast1-aiplatform.googleapis.com/mcp/evaluation",
+      "disabled": true
+    },
+    "australia-southeast1-aiplatform-mcp-generate": {
+      "serverUrl": "https://australia-southeast1-aiplatform.googleapis.com/mcp/generate",
+      "disabled": true
+    },
+    "australia-southeast1-aiplatform-mcp-models": {
+      "serverUrl": "https://australia-southeast1-aiplatform.googleapis.com/mcp/models",
+      "disabled": true
+    },
+    "australia-southeast1-aiplatform-mcp-notebook": {
+      "serverUrl": "https://australia-southeast1-aiplatform.googleapis.com/mcp/notebook",
+      "disabled": true
+    },
+    "australia-southeast1-aiplatform-mcp-predict": {
+      "serverUrl": "https://australia-southeast1-aiplatform.googleapis.com/mcp/predict",
+      "disabled": true
+    },
+    "australia-southeast1-aiplatform-mcp-prompts": {
+      "serverUrl": "https://australia-southeast1-aiplatform.googleapis.com/mcp/prompts",
+      "disabled": true
+    },
+    "australia-southeast1-aiplatform-mcp-retrieval": {
+      "serverUrl": "https://australia-southeast1-aiplatform.googleapis.com/mcp/retrieval",
+      "disabled": true
+    },
+    "australia-southeast1-aiplatform-mcp-tuning": {
+      "serverUrl": "https://australia-southeast1-aiplatform.googleapis.com/mcp/tuning",
+      "disabled": true
+    },
+    "australia-southeast1-datalineage-mcp": {
+      "serverUrl": "https://australia-southeast1-datalineage.googleapis.com/mcp",
+      "disabled": true
+    },
+    "australia-southeast2-aiplatform-mcp-endpoints": {
+      "serverUrl": "https://australia-southeast2-aiplatform.googleapis.com/mcp/endpoints",
+      "disabled": true
+    },
+    "australia-southeast2-aiplatform-mcp-evaluation": {
+      "serverUrl": "https://australia-southeast2-aiplatform.googleapis.com/mcp/evaluation",
+      "disabled": true
+    },
+    "australia-southeast2-aiplatform-mcp-generate": {
+      "serverUrl": "https://australia-southeast2-aiplatform.googleapis.com/mcp/generate",
+      "disabled": true
+    },
+    "australia-southeast2-aiplatform-mcp-models": {
+      "serverUrl": "https://australia-southeast2-aiplatform.googleapis.com/mcp/models",
+      "disabled": true
+    },
+    "australia-southeast2-aiplatform-mcp-notebook": {
+      "serverUrl": "https://australia-southeast2-aiplatform.googleapis.com/mcp/notebook",
+      "disabled": true
+    },
+    "australia-southeast2-aiplatform-mcp-predict": {
+      "serverUrl": "https://australia-southeast2-aiplatform.googleapis.com/mcp/predict",
+      "disabled": true
+    },
+    "australia-southeast2-aiplatform-mcp-prompts": {
+      "serverUrl": "https://australia-southeast2-aiplatform.googleapis.com/mcp/prompts",
+      "disabled": true
+    },
+    "australia-southeast2-aiplatform-mcp-retrieval": {
+      "serverUrl": "https://australia-southeast2-aiplatform.googleapis.com/mcp/retrieval",
+      "disabled": true
+    },
+    "australia-southeast2-aiplatform-mcp-tuning": {
+      "serverUrl": "https://australia-southeast2-aiplatform.googleapis.com/mcp/tuning",
+      "disabled": true
+    },
+    "australia-southeast2-datalineage-mcp": {
+      "serverUrl": "https://australia-southeast2-datalineage.googleapis.com/mcp",
+      "disabled": true
+    },
+    "aws-ap-northeast-2-datalineage-mcp": {
+      "serverUrl": "https://aws-ap-northeast-2-datalineage.googleapis.com/mcp",
+      "disabled": true
+    },
+    "aws-ap-southeast-2-datalineage-mcp": {
+      "serverUrl": "https://aws-ap-southeast-2-datalineage.googleapis.com/mcp",
+      "disabled": true
+    },
+    "aws-eu-central-1-datalineage-mcp": {
+      "serverUrl": "https://aws-eu-central-1-datalineage.googleapis.com/mcp",
+      "disabled": true
+    },
+    "aws-eu-west-1-datalineage-mcp": {
+      "serverUrl": "https://aws-eu-west-1-datalineage.googleapis.com/mcp",
+      "disabled": true
+    },
+    "aws-us-east-1-datalineage-mcp": {
+      "serverUrl": "https://aws-us-east-1-datalineage.googleapis.com/mcp",
+      "disabled": true
+    },
+    "aws-us-west-2-datalineage-mcp": {
+      "serverUrl": "https://aws-us-west-2-datalineage.googleapis.com/mcp",
+      "disabled": true
+    },
+    "azure-eastus2-datalineage-mcp": {
+      "serverUrl": "https://azure-eastus2-datalineage.googleapis.com/mcp",
+      "disabled": true
+    },
+    "backupdr-mcp": {
+      "serverUrl": "https://backupdr.googleapis.com/mcp",
+      "disabled": true
+    },
+    "bigquery-mcp": {
+      "serverUrl": "https://bigquery.googleapis.com/mcp",
+      "disabled": true
+    },
+    "bigquerydatatransfer-mcp": {
+      "serverUrl": "https://bigquerydatatransfer.googleapis.com/mcp",
+      "disabled": true
+    },
+    "bigquerymigration-mcp": {
+      "serverUrl": "https://bigquerymigration.googleapis.com/mcp",
+      "disabled": true
+    },
+    "bigtableadmin-mcp": {
+      "serverUrl": "https://bigtableadmin.googleapis.com/mcp",
+      "disabled": true
+    },
+    "calendarmcp-mcp-v1": {
+      "serverUrl": "https://calendarmcp.googleapis.com/mcp/v1",
+      "disabled": true
+    },
+    "ces-us-rep-mcp": {
+      "serverUrl": "https://ces.us.rep.googleapis.com/mcp",
+      "disabled": true
+    },
+    "chatmcp-mcp-v1": {
+      "serverUrl": "https://chatmcp.googleapis.com/mcp/v1",
+      "disabled": true
+    },
+    "cloud-mcp": {
+      "serverUrl": "https://cloud.googleapis.com/mcp",
+      "disabled": true
+    },
+    "cloudasset-mcp": {
+      "serverUrl": "https://cloudasset.googleapis.com/mcp",
+      "disabled": true
+    },
+    "cloudbilling-mcp": {
+      "serverUrl": "https://cloudbilling.googleapis.com/mcp",
+      "disabled": true
+    },
+    "cloudcli-mcp": {
+      "serverUrl": "https://cloudcli.googleapis.com/mcp",
+      "disabled": true
+    },
+    "clouderrorreporting-mcp": {
+      "serverUrl": "https://clouderrorreporting.googleapis.com/mcp",
+      "disabled": true
+    },
+    "cloudlocationfinder-mcp": {
+      "serverUrl": "https://cloudlocationfinder.googleapis.com/mcp",
+      "disabled": true
+    },
+    "cloudproductregistry-mcp": {
+      "serverUrl": "https://cloudproductregistry.googleapis.com/mcp",
+      "disabled": true
+    },
+    "cloudquotas-mcp": {
+      "serverUrl": "https://cloudquotas.googleapis.com/mcp",
+      "disabled": true
+    },
+    "cloudresourcemanager-mcp": {
+      "serverUrl": "https://cloudresourcemanager.googleapis.com/mcp",
+      "disabled": true
+    },
+    "cloudsupport-mcp": {
+      "serverUrl": "https://cloudsupport.googleapis.com/mcp",
+      "disabled": true
+    },
+    "cloudtrace-mcp": {
+      "serverUrl": "https://cloudtrace.googleapis.com/mcp",
+      "disabled": true
+    },
+    "compute-mcp": {
+      "serverUrl": "https://compute.googleapis.com/mcp",
+      "disabled": true
+    },
+    "container-mcp": {
+      "serverUrl": "https://container.googleapis.com/mcp",
+      "disabled": true
+    },
+    "databasecenter-mcp": {
+      "serverUrl": "https://databasecenter.googleapis.com/mcp",
+      "disabled": true
+    },
+    "databaseinsights-mcp": {
+      "serverUrl": "https://databaseinsights.googleapis.com/mcp",
+      "disabled": true
+    },
+    "dataform-mcp": {
+      "serverUrl": "https://dataform.googleapis.com/mcp",
+      "disabled": true
+    },
+    "datalineage-mcp": {
+      "serverUrl": "https://datalineage.googleapis.com/mcp",
+      "disabled": true
+    },
+    "datamigration-mcp": {
+      "serverUrl": "https://datamigration.googleapis.com/mcp",
+      "disabled": true
+    },
+    "dataplex-mcp": {
+      "serverUrl": "https://dataplex.googleapis.com/mcp",
+      "disabled": true
+    },
+    "dataplex-mcp-data-products": {
+      "serverUrl": "https://dataplex.googleapis.com/mcp/data-products",
+      "disabled": true
+    },
+    "dataproc-mcp": {
+      "serverUrl": "https://dataproc.googleapis.com/mcp",
+      "disabled": true
+    },
+    "datastream-mcp": {
+      "serverUrl": "https://datastream.googleapis.com/mcp",
+      "disabled": true
+    },
+    "design-mcp": {
+      "serverUrl": "https://design.googleapis.com/mcp",
+      "disabled": true
+    },
+    "developerknowledge-mcp": {
+      "serverUrl": "https://developerknowledge.googleapis.com/mcp",
+      "disabled": true
+    },
+    "discoveryengine-mcp": {
+      "serverUrl": "https://discoveryengine.googleapis.com/mcp",
+      "disabled": true
+    },
+    "drivemcp-mcp-v1": {
+      "serverUrl": "https://drivemcp.googleapis.com/mcp/v1",
+      "disabled": true
+    },
+    "europe-central2-aiplatform-mcp-endpoints": {
+      "serverUrl": "https://europe-central2-aiplatform.googleapis.com/mcp/endpoints",
+      "disabled": true
+    },
+    "europe-central2-aiplatform-mcp-evaluation": {
+      "serverUrl": "https://europe-central2-aiplatform.googleapis.com/mcp/evaluation",
+      "disabled": true
+    },
+    "europe-central2-aiplatform-mcp-generate": {
+      "serverUrl": "https://europe-central2-aiplatform.googleapis.com/mcp/generate",
+      "disabled": true
+    },
+    "europe-central2-aiplatform-mcp-models": {
+      "serverUrl": "https://europe-central2-aiplatform.googleapis.com/mcp/models",
+      "disabled": true
+    },
+    "europe-central2-aiplatform-mcp-notebook": {
+      "serverUrl": "https://europe-central2-aiplatform.googleapis.com/mcp/notebook",
+      "disabled": true
+    },
+    "europe-central2-aiplatform-mcp-predict": {
+      "serverUrl": "https://europe-central2-aiplatform.googleapis.com/mcp/predict",
+      "disabled": true
+    },
+    "europe-central2-aiplatform-mcp-prompts": {
+      "serverUrl": "https://europe-central2-aiplatform.googleapis.com/mcp/prompts",
+      "disabled": true
+    },
+    "europe-central2-aiplatform-mcp-retrieval": {
+      "serverUrl": "https://europe-central2-aiplatform.googleapis.com/mcp/retrieval",
+      "disabled": true
+    },
+    "europe-central2-aiplatform-mcp-tuning": {
+      "serverUrl": "https://europe-central2-aiplatform.googleapis.com/mcp/tuning",
+      "disabled": true
+    },
+    "europe-central2-datalineage-mcp": {
+      "serverUrl": "https://europe-central2-datalineage.googleapis.com/mcp",
+      "disabled": true
+    },
+    "europe-north1-aiplatform-mcp-endpoints": {
+      "serverUrl": "https://europe-north1-aiplatform.googleapis.com/mcp/endpoints",
+      "disabled": true
+    },
+    "europe-north1-aiplatform-mcp-evaluation": {
+      "serverUrl": "https://europe-north1-aiplatform.googleapis.com/mcp/evaluation",
+      "disabled": true
+    },
+    "europe-north1-aiplatform-mcp-generate": {
+      "serverUrl": "https://europe-north1-aiplatform.googleapis.com/mcp/generate",
+      "disabled": true
+    },
+    "europe-north1-aiplatform-mcp-models": {
+      "serverUrl": "https://europe-north1-aiplatform.googleapis.com/mcp/models",
+      "disabled": true
+    },
+    "europe-north1-aiplatform-mcp-notebook": {
+      "serverUrl": "https://europe-north1-aiplatform.googleapis.com/mcp/notebook",
+      "disabled": true
+    },
+    "europe-north1-aiplatform-mcp-predict": {
+      "serverUrl": "https://europe-north1-aiplatform.googleapis.com/mcp/predict",
+      "disabled": true
+    },
+    "europe-north1-aiplatform-mcp-prompts": {
+      "serverUrl": "https://europe-north1-aiplatform.googleapis.com/mcp/prompts",
+      "disabled": true
+    },
+    "europe-north1-aiplatform-mcp-retrieval": {
+      "serverUrl": "https://europe-north1-aiplatform.googleapis.com/mcp/retrieval",
+      "disabled": true
+    },
+    "europe-north1-aiplatform-mcp-tuning": {
+      "serverUrl": "https://europe-north1-aiplatform.googleapis.com/mcp/tuning",
+      "disabled": true
+    },
+    "europe-north1-datalineage-mcp": {
+      "serverUrl": "https://europe-north1-datalineage.googleapis.com/mcp",
+      "disabled": true
+    },
+    "europe-north2-datalineage-mcp": {
+      "serverUrl": "https://europe-north2-datalineage.googleapis.com/mcp",
+      "disabled": true
+    },
+    "europe-southwest1-datalineage-mcp": {
+      "serverUrl": "https://europe-southwest1-datalineage.googleapis.com/mcp",
+      "disabled": true
+    },
+    "europe-west1-datalineage-mcp": {
+      "serverUrl": "https://europe-west1-datalineage.googleapis.com/mcp",
+      "disabled": true
+    },
+    "europe-west10-aiplatform-mcp-endpoints": {
+      "serverUrl": "https://europe-west10-aiplatform.googleapis.com/mcp/endpoints",
+      "disabled": true
+    },
+    "europe-west10-aiplatform-mcp-evaluation": {
+      "serverUrl": "https://europe-west10-aiplatform.googleapis.com/mcp/evaluation",
+      "disabled": true
+    },
+    "europe-west10-aiplatform-mcp-generate": {
+      "serverUrl": "https://europe-west10-aiplatform.googleapis.com/mcp/generate",
+      "disabled": true
+    },
+    "europe-west10-aiplatform-mcp-models": {
+      "serverUrl": "https://europe-west10-aiplatform.googleapis.com/mcp/models",
+      "disabled": true
+    },
+    "europe-west10-aiplatform-mcp-notebook": {
+      "serverUrl": "https://europe-west10-aiplatform.googleapis.com/mcp/notebook",
+      "disabled": true
+    },
+    "europe-west10-aiplatform-mcp-predict": {
+      "serverUrl": "https://europe-west10-aiplatform.googleapis.com/mcp/predict",
+      "disabled": true
+    },
+    "europe-west10-aiplatform-mcp-prompts": {
+      "serverUrl": "https://europe-west10-aiplatform.googleapis.com/mcp/prompts",
+      "disabled": true
+    },
+    "europe-west10-aiplatform-mcp-retrieval": {
+      "serverUrl": "https://europe-west10-aiplatform.googleapis.com/mcp/retrieval",
+      "disabled": true
+    },
+    "europe-west10-aiplatform-mcp-tuning": {
+      "serverUrl": "https://europe-west10-aiplatform.googleapis.com/mcp/tuning",
+      "disabled": true
+    },
+    "europe-west10-datalineage-mcp": {
+      "serverUrl": "https://europe-west10-datalineage.googleapis.com/mcp",
+      "disabled": true
+    },
+    "europe-west12-aiplatform-mcp-endpoints": {
+      "serverUrl": "https://europe-west12-aiplatform.googleapis.com/mcp/endpoints",
+      "disabled": true
+    },
+    "europe-west12-aiplatform-mcp-evaluation": {
+      "serverUrl": "https://europe-west12-aiplatform.googleapis.com/mcp/evaluation",
+      "disabled": true
+    },
+    "europe-west12-aiplatform-mcp-generate": {
+      "serverUrl": "https://europe-west12-aiplatform.googleapis.com/mcp/generate",
+      "disabled": true
+    },
+    "europe-west12-aiplatform-mcp-models": {
+      "serverUrl": "https://europe-west12-aiplatform.googleapis.com/mcp/models",
+      "disabled": true
+    },
+    "europe-west12-aiplatform-mcp-notebook": {
+      "serverUrl": "https://europe-west12-aiplatform.googleapis.com/mcp/notebook",
+      "disabled": true
+    },
+    "europe-west12-aiplatform-mcp-predict": {
+      "serverUrl": "https://europe-west12-aiplatform.googleapis.com/mcp/predict",
+      "disabled": true
+    },
+    "europe-west12-aiplatform-mcp-prompts": {
+      "serverUrl": "https://europe-west12-aiplatform.googleapis.com/mcp/prompts",
+      "disabled": true
+    },
+    "europe-west12-aiplatform-mcp-retrieval": {
+      "serverUrl": "https://europe-west12-aiplatform.googleapis.com/mcp/retrieval",
+      "disabled": true
+    },
+    "europe-west12-aiplatform-mcp-tuning": {
+      "serverUrl": "https://europe-west12-aiplatform.googleapis.com/mcp/tuning",
+      "disabled": true
+    },
+    "europe-west12-datalineage-mcp": {
+      "serverUrl": "https://europe-west12-datalineage.googleapis.com/mcp",
+      "disabled": true
+    },
+    "europe-west15-aiplatform-mcp-endpoints": {
+      "serverUrl": "https://europe-west15-aiplatform.googleapis.com/mcp/endpoints",
+      "disabled": true
+    },
+    "europe-west15-aiplatform-mcp-evaluation": {
+      "serverUrl": "https://europe-west15-aiplatform.googleapis.com/mcp/evaluation",
+      "disabled": true
+    },
+    "europe-west15-aiplatform-mcp-generate": {
+      "serverUrl": "https://europe-west15-aiplatform.googleapis.com/mcp/generate",
+      "disabled": true
+    },
+    "europe-west15-aiplatform-mcp-models": {
+      "serverUrl": "https://europe-west15-aiplatform.googleapis.com/mcp/models",
+      "disabled": true
+    },
+    "europe-west15-aiplatform-mcp-notebook": {
+      "serverUrl": "https://europe-west15-aiplatform.googleapis.com/mcp/notebook",
+      "disabled": true
+    },
+    "europe-west15-aiplatform-mcp-predict": {
+      "serverUrl": "https://europe-west15-aiplatform.googleapis.com/mcp/predict",
+      "disabled": true
+    },
+    "europe-west15-aiplatform-mcp-prompts": {
+      "serverUrl": "https://europe-west15-aiplatform.googleapis.com/mcp/prompts",
+      "disabled": true
+    },
+    "europe-west15-aiplatform-mcp-retrieval": {
+      "serverUrl": "https://europe-west15-aiplatform.googleapis.com/mcp/retrieval",
+      "disabled": true
+    },
+    "europe-west15-aiplatform-mcp-tuning": {
+      "serverUrl": "https://europe-west15-aiplatform.googleapis.com/mcp/tuning",
+      "disabled": true
+    },
+    "europe-west2-aiplatform-mcp-endpoints": {
+      "serverUrl": "https://europe-west2-aiplatform.googleapis.com/mcp/endpoints",
+      "disabled": true
+    },
+    "europe-west2-aiplatform-mcp-evaluation": {
+      "serverUrl": "https://europe-west2-aiplatform.googleapis.com/mcp/evaluation",
+      "disabled": true
+    },
+    "europe-west2-aiplatform-mcp-generate": {
+      "serverUrl": "https://europe-west2-aiplatform.googleapis.com/mcp/generate",
+      "disabled": true
+    },
+    "europe-west2-aiplatform-mcp-models": {
+      "serverUrl": "https://europe-west2-aiplatform.googleapis.com/mcp/models",
+      "disabled": true
+    },
+    "europe-west2-aiplatform-mcp-notebook": {
+      "serverUrl": "https://europe-west2-aiplatform.googleapis.com/mcp/notebook",
+      "disabled": true
+    },
+    "europe-west2-aiplatform-mcp-predict": {
+      "serverUrl": "https://europe-west2-aiplatform.googleapis.com/mcp/predict",
+      "disabled": true
+    },
+    "europe-west2-aiplatform-mcp-prompts": {
+      "serverUrl": "https://europe-west2-aiplatform.googleapis.com/mcp/prompts",
+      "disabled": true
+    },
+    "europe-west2-datalineage-mcp": {
+      "serverUrl": "https://europe-west2-datalineage.googleapis.com/mcp",
+      "disabled": true
+    },
+    "europe-west3-aiplatform-mcp-endpoints": {
+      "serverUrl": "https://europe-west3-aiplatform.googleapis.com/mcp/endpoints",
+      "disabled": true
+    },
+    "europe-west3-aiplatform-mcp-evaluation": {
+      "serverUrl": "https://europe-west3-aiplatform.googleapis.com/mcp/evaluation",
+      "disabled": true
+    },
+    "europe-west3-aiplatform-mcp-generate": {
+      "serverUrl": "https://europe-west3-aiplatform.googleapis.com/mcp/generate",
+      "disabled": true
+    },
+    "europe-west3-aiplatform-mcp-models": {
+      "serverUrl": "https://europe-west3-aiplatform.googleapis.com/mcp/models",
+      "disabled": true
+    },
+    "europe-west3-aiplatform-mcp-notebook": {
+      "serverUrl": "https://europe-west3-aiplatform.googleapis.com/mcp/notebook",
+      "disabled": true
+    },
+    "europe-west3-aiplatform-mcp-predict": {
+      "serverUrl": "https://europe-west3-aiplatform.googleapis.com/mcp/predict",
+      "disabled": true
+    },
+    "europe-west3-aiplatform-mcp-prompts": {
+      "serverUrl": "https://europe-west3-aiplatform.googleapis.com/mcp/prompts",
+      "disabled": true
+    },
+    "europe-west3-aiplatform-mcp-retrieval": {
+      "serverUrl": "https://europe-west3-aiplatform.googleapis.com/mcp/retrieval",
+      "disabled": true
+    },
+    "europe-west3-aiplatform-mcp-tuning": {
+      "serverUrl": "https://europe-west3-aiplatform.googleapis.com/mcp/tuning",
+      "disabled": true
+    },
+    "europe-west3-datalineage-mcp": {
+      "serverUrl": "https://europe-west3-datalineage.googleapis.com/mcp",
+      "disabled": true
+    },
+    "europe-west4-aiplatform-mcp-endpoints": {
+      "serverUrl": "https://europe-west4-aiplatform.googleapis.com/mcp/endpoints",
+      "disabled": true
+    },
+    "europe-west4-aiplatform-mcp-evaluation": {
+      "serverUrl": "https://europe-west4-aiplatform.googleapis.com/mcp/evaluation",
+      "disabled": true
+    },
+    "europe-west4-aiplatform-mcp-generate": {
+      "serverUrl": "https://europe-west4-aiplatform.googleapis.com/mcp/generate",
+      "disabled": true
+    },
+    "europe-west4-aiplatform-mcp-models": {
+      "serverUrl": "https://europe-west4-aiplatform.googleapis.com/mcp/models",
+      "disabled": true
+    },
+    "europe-west4-aiplatform-mcp-notebook": {
+      "serverUrl": "https://europe-west4-aiplatform.googleapis.com/mcp/notebook",
+      "disabled": true
+    },
+    "europe-west4-aiplatform-mcp-predict": {
+      "serverUrl": "https://europe-west4-aiplatform.googleapis.com/mcp/predict",
+      "disabled": true
+    },
+    "europe-west4-aiplatform-mcp-prompts": {
+      "serverUrl": "https://europe-west4-aiplatform.googleapis.com/mcp/prompts",
+      "disabled": true
+    },
+    "europe-west4-aiplatform-mcp-retrieval": {
+      "serverUrl": "https://europe-west4-aiplatform.googleapis.com/mcp/retrieval",
+      "disabled": true
+    },
+    "europe-west4-aiplatform-mcp-tuning": {
+      "serverUrl": "https://europe-west4-aiplatform.googleapis.com/mcp/tuning",
+      "disabled": true
+    },
+    "europe-west4-datalineage-mcp": {
+      "serverUrl": "https://europe-west4-datalineage.googleapis.com/mcp",
+      "disabled": true
+    },
+    "europe-west5-aiplatform-mcp-endpoints": {
+      "serverUrl": "https://europe-west5-aiplatform.googleapis.com/mcp/endpoints",
+      "disabled": true
+    },
+    "europe-west5-aiplatform-mcp-evaluation": {
+      "serverUrl": "https://europe-west5-aiplatform.googleapis.com/mcp/evaluation",
+      "disabled": true
+    },
+    "europe-west5-aiplatform-mcp-generate": {
+      "serverUrl": "https://europe-west5-aiplatform.googleapis.com/mcp/generate",
+      "disabled": true
+    },
+    "europe-west5-aiplatform-mcp-models": {
+      "serverUrl": "https://europe-west5-aiplatform.googleapis.com/mcp/models",
+      "disabled": true
+    },
+    "europe-west5-aiplatform-mcp-notebook": {
+      "serverUrl": "https://europe-west5-aiplatform.googleapis.com/mcp/notebook",
+      "disabled": true
+    },
+    "europe-west5-aiplatform-mcp-predict": {
+      "serverUrl": "https://europe-west5-aiplatform.googleapis.com/mcp/predict",
+      "disabled": true
+    },
+    "europe-west5-aiplatform-mcp-prompts": {
+      "serverUrl": "https://europe-west5-aiplatform.googleapis.com/mcp/prompts",
+      "disabled": true
+    },
+    "europe-west5-aiplatform-mcp-retrieval": {
+      "serverUrl": "https://europe-west5-aiplatform.googleapis.com/mcp/retrieval",
+      "disabled": true
+    },
+    "europe-west5-aiplatform-mcp-tuning": {
+      "serverUrl": "https://europe-west5-aiplatform.googleapis.com/mcp/tuning",
+      "disabled": true
+    },
+    "europe-west6-aiplatform-mcp-endpoints": {
+      "serverUrl": "https://europe-west6-aiplatform.googleapis.com/mcp/endpoints",
+      "disabled": true
+    },
+    "europe-west6-aiplatform-mcp-evaluation": {
+      "serverUrl": "https://europe-west6-aiplatform.googleapis.com/mcp/evaluation",
+      "disabled": true
+    },
+    "europe-west6-aiplatform-mcp-generate": {
+      "serverUrl": "https://europe-west6-aiplatform.googleapis.com/mcp/generate",
+      "disabled": true
+    },
+    "europe-west6-aiplatform-mcp-models": {
+      "serverUrl": "https://europe-west6-aiplatform.googleapis.com/mcp/models",
+      "disabled": true
+    },
+    "europe-west6-aiplatform-mcp-notebook": {
+      "serverUrl": "https://europe-west6-aiplatform.googleapis.com/mcp/notebook",
+      "disabled": true
+    },
+    "europe-west6-aiplatform-mcp-predict": {
+      "serverUrl": "https://europe-west6-aiplatform.googleapis.com/mcp/predict",
+      "disabled": true
+    },
+    "europe-west6-aiplatform-mcp-prompts": {
+      "serverUrl": "https://europe-west6-aiplatform.googleapis.com/mcp/prompts",
+      "disabled": true
+    },
+    "europe-west6-aiplatform-mcp-retrieval": {
+      "serverUrl": "https://europe-west6-aiplatform.googleapis.com/mcp/retrieval",
+      "disabled": true
+    },
+    "europe-west6-aiplatform-mcp-tuning": {
+      "serverUrl": "https://europe-west6-aiplatform.googleapis.com/mcp/tuning",
+      "disabled": true
+    },
+    "europe-west6-datalineage-mcp": {
+      "serverUrl": "https://europe-west6-datalineage.googleapis.com/mcp",
+      "disabled": true
+    },
+    "europe-west8-aiplatform-mcp-endpoints": {
+      "serverUrl": "https://europe-west8-aiplatform.googleapis.com/mcp/endpoints",
+      "disabled": true
+    },
+    "europe-west8-aiplatform-mcp-evaluation": {
+      "serverUrl": "https://europe-west8-aiplatform.googleapis.com/mcp/evaluation",
+      "disabled": true
+    },
+    "europe-west8-aiplatform-mcp-generate": {
+      "serverUrl": "https://europe-west8-aiplatform.googleapis.com/mcp/generate",
+      "disabled": true
+    },
+    "europe-west8-aiplatform-mcp-models": {
+      "serverUrl": "https://europe-west8-aiplatform.googleapis.com/mcp/models",
+      "disabled": true
+    },
+    "europe-west8-aiplatform-mcp-notebook": {
+      "serverUrl": "https://europe-west8-aiplatform.googleapis.com/mcp/notebook",
+      "disabled": true
+    },
+    "europe-west8-aiplatform-mcp-predict": {
+      "serverUrl": "https://europe-west8-aiplatform.googleapis.com/mcp/predict",
+      "disabled": true
+    },
+    "europe-west8-aiplatform-mcp-prompts": {
+      "serverUrl": "https://europe-west8-aiplatform.googleapis.com/mcp/prompts",
+      "disabled": true
+    },
+    "europe-west8-aiplatform-mcp-retrieval": {
+      "serverUrl": "https://europe-west8-aiplatform.googleapis.com/mcp/retrieval",
+      "disabled": true
+    },
+    "europe-west8-aiplatform-mcp-tuning": {
+      "serverUrl": "https://europe-west8-aiplatform.googleapis.com/mcp/tuning",
+      "disabled": true
+    },
+    "europe-west8-datalineage-mcp": {
+      "serverUrl": "https://europe-west8-datalineage.googleapis.com/mcp",
+      "disabled": true
+    },
+    "europe-west9-aiplatform-mcp-endpoints": {
+      "serverUrl": "https://europe-west9-aiplatform.googleapis.com/mcp/endpoints",
+      "disabled": true
+    },
+    "europe-west9-aiplatform-mcp-evaluation": {
+      "serverUrl": "https://europe-west9-aiplatform.googleapis.com/mcp/evaluation",
+      "disabled": true
+    },
+    "europe-west9-aiplatform-mcp-generate": {
+      "serverUrl": "https://europe-west9-aiplatform.googleapis.com/mcp/generate",
+      "disabled": true
+    },
+    "europe-west9-aiplatform-mcp-models": {
+      "serverUrl": "https://europe-west9-aiplatform.googleapis.com/mcp/models",
+      "disabled": true
+    },
+    "europe-west9-aiplatform-mcp-notebook": {
+      "serverUrl": "https://europe-west9-aiplatform.googleapis.com/mcp/notebook",
+      "disabled": true
+    },
+    "europe-west9-aiplatform-mcp-predict": {
+      "serverUrl": "https://europe-west9-aiplatform.googleapis.com/mcp/predict",
+      "disabled": true
+    },
+    "europe-west9-aiplatform-mcp-prompts": {
+      "serverUrl": "https://europe-west9-aiplatform.googleapis.com/mcp/prompts",
+      "disabled": true
+    },
+    "europe-west9-aiplatform-mcp-retrieval": {
+      "serverUrl": "https://europe-west9-aiplatform.googleapis.com/mcp/retrieval",
+      "disabled": true
+    },
+    "europe-west9-aiplatform-mcp-tuning": {
+      "serverUrl": "https://europe-west9-aiplatform.googleapis.com/mcp/tuning",
+      "disabled": true
+    },
+    "europe-west9-datalineage-mcp": {
+      "serverUrl": "https://europe-west9-datalineage.googleapis.com/mcp",
+      "disabled": true
+    },
+    "file-mcp": {
+      "serverUrl": "https://file.googleapis.com/mcp",
+      "disabled": true
+    },
+    "firebasedataconnect-mcp": {
+      "serverUrl": "https://firebasedataconnect.googleapis.com/mcp",
+      "disabled": true
+    },
+    "firestore-mcp": {
+      "serverUrl": "https://firestore.googleapis.com/mcp",
+      "disabled": true
+    },
+    "geminicloudassist-mcp": {
+      "serverUrl": "https://geminicloudassist.googleapis.com/mcp",
+      "disabled": true
+    },
+    "gmailmcp-mcp-v1": {
+      "serverUrl": "https://gmailmcp.googleapis.com/mcp/v1",
+      "disabled": true
+    },
+    "home-mcp": {
+      "serverUrl": "https://home.googleapis.com/mcp",
+      "disabled": true
+    },
+    "homedevelopers-mcp": {
+      "serverUrl": "https://homedevelopers.googleapis.com/mcp",
+      "disabled": true
+    },
+    "iam-mcp": {
+      "serverUrl": "https://iam.googleapis.com/mcp",
+      "disabled": true
+    },
+    "logging-mcp": {
+      "serverUrl": "https://logging.googleapis.com/mcp",
+      "disabled": true
+    },
+    "maintenance-mcp": {
+      "serverUrl": "https://maintenance.googleapis.com/mcp",
+      "disabled": true
+    },
+    "managedkafka-mcp": {
+      "serverUrl": "https://managedkafka.googleapis.com/mcp",
+      "disabled": true
+    },
+    "mapscodeassist-mcp": {
+      "serverUrl": "https://mapscodeassist.googleapis.com/mcp",
+      "disabled": true
+    },
+    "mapstools-mcp": {
+      "serverUrl": "https://mapstools.googleapis.com/mcp",
+      "disabled": true
+    },
+    "me-central1-aiplatform-mcp-endpoints": {
+      "serverUrl": "https://me-central1-aiplatform.googleapis.com/mcp/endpoints",
+      "disabled": true
+    },
+    "me-central1-aiplatform-mcp-evaluation": {
+      "serverUrl": "https://me-central1-aiplatform.googleapis.com/mcp/evaluation",
+      "disabled": true
+    },
+    "me-central1-aiplatform-mcp-generate": {
+      "serverUrl": "https://me-central1-aiplatform.googleapis.com/mcp/generate",
+      "disabled": true
+    },
+    "me-central1-aiplatform-mcp-models": {
+      "serverUrl": "https://me-central1-aiplatform.googleapis.com/mcp/models",
+      "disabled": true
+    },
+    "me-central1-aiplatform-mcp-notebook": {
+      "serverUrl": "https://me-central1-aiplatform.googleapis.com/mcp/notebook",
+      "disabled": true
+    },
+    "me-central1-aiplatform-mcp-predict": {
+      "serverUrl": "https://me-central1-aiplatform.googleapis.com/mcp/predict",
+      "disabled": true
+    },
+    "me-central1-aiplatform-mcp-prompts": {
+      "serverUrl": "https://me-central1-aiplatform.googleapis.com/mcp/prompts",
+      "disabled": true
+    },
+    "me-central1-aiplatform-mcp-retrieval": {
+      "serverUrl": "https://me-central1-aiplatform.googleapis.com/mcp/retrieval",
+      "disabled": true
+    },
+    "me-central1-aiplatform-mcp-tuning": {
+      "serverUrl": "https://me-central1-aiplatform.googleapis.com/mcp/tuning",
+      "disabled": true
+    },
+    "me-central1-datalineage-mcp": {
+      "serverUrl": "https://me-central1-datalineage.googleapis.com/mcp",
+      "disabled": true
+    },
+    "me-central2-aiplatform-mcp-endpoints": {
+      "serverUrl": "https://me-central2-aiplatform.googleapis.com/mcp/endpoints",
+      "disabled": true
+    },
+    "me-central2-aiplatform-mcp-evaluation": {
+      "serverUrl": "https://me-central2-aiplatform.googleapis.com/mcp/evaluation",
+      "disabled": true
+    },
+    "me-central2-aiplatform-mcp-generate": {
+      "serverUrl": "https://me-central2-aiplatform.googleapis.com/mcp/generate",
+      "disabled": true
+    },
+    "me-central2-aiplatform-mcp-models": {
+      "serverUrl": "https://me-central2-aiplatform.googleapis.com/mcp/models",
+      "disabled": true
+    },
+    "me-central2-aiplatform-mcp-notebook": {
+      "serverUrl": "https://me-central2-aiplatform.googleapis.com/mcp/notebook",
+      "disabled": true
+    },
+    "me-central2-aiplatform-mcp-predict": {
+      "serverUrl": "https://me-central2-aiplatform.googleapis.com/mcp/predict",
+      "disabled": true
+    },
+    "me-central2-aiplatform-mcp-prompts": {
+      "serverUrl": "https://me-central2-aiplatform.googleapis.com/mcp/prompts",
+      "disabled": true
+    },
+    "me-central2-aiplatform-mcp-retrieval": {
+      "serverUrl": "https://me-central2-aiplatform.googleapis.com/mcp/retrieval",
+      "disabled": true
+    },
+    "me-central2-aiplatform-mcp-tuning": {
+      "serverUrl": "https://me-central2-aiplatform.googleapis.com/mcp/tuning",
+      "disabled": true
+    },
+    "me-central2-datalineage-mcp": {
+      "serverUrl": "https://me-central2-datalineage.googleapis.com/mcp",
+      "disabled": true
+    },
+    "me-west1-aiplatform-mcp-endpoints": {
+      "serverUrl": "https://me-west1-aiplatform.googleapis.com/mcp/endpoints",
+      "disabled": true
+    },
+    "me-west1-aiplatform-mcp-evaluation": {
+      "serverUrl": "https://me-west1-aiplatform.googleapis.com/mcp/evaluation",
+      "disabled": true
+    },
+    "me-west1-aiplatform-mcp-generate": {
+      "serverUrl": "https://me-west1-aiplatform.googleapis.com/mcp/generate",
+      "disabled": true
+    },
+    "me-west1-aiplatform-mcp-models": {
+      "serverUrl": "https://me-west1-aiplatform.googleapis.com/mcp/models",
+      "disabled": true
+    },
+    "me-west1-aiplatform-mcp-notebook": {
+      "serverUrl": "https://me-west1-aiplatform.googleapis.com/mcp/notebook",
+      "disabled": true
+    },
+    "me-west1-aiplatform-mcp-predict": {
+      "serverUrl": "https://me-west1-aiplatform.googleapis.com/mcp/predict",
+      "disabled": true
+    },
+    "me-west1-aiplatform-mcp-prompts": {
+      "serverUrl": "https://me-west1-aiplatform.googleapis.com/mcp/prompts",
+      "disabled": true
+    },
+    "me-west1-aiplatform-mcp-retrieval": {
+      "serverUrl": "https://me-west1-aiplatform.googleapis.com/mcp/retrieval",
+      "disabled": true
+    },
+    "me-west1-aiplatform-mcp-tuning": {
+      "serverUrl": "https://me-west1-aiplatform.googleapis.com/mcp/tuning",
+      "disabled": true
+    },
+    "me-west1-datalineage-mcp": {
+      "serverUrl": "https://me-west1-datalineage.googleapis.com/mcp",
+      "disabled": true
+    },
+    "memorystore-mcp": {
+      "serverUrl": "https://memorystore.googleapis.com/mcp",
+      "disabled": true
+    },
+    "monitoring-mcp": {
+      "serverUrl": "https://monitoring.googleapis.com/mcp",
+      "disabled": true
+    },
+    "netapp-mcp": {
+      "serverUrl": "https://netapp.googleapis.com/mcp",
+      "disabled": true
+    },
+    "networkmanagement-mcp": {
+      "serverUrl": "https://networkmanagement.googleapis.com/mcp",
+      "disabled": true
+    },
+    "northamerica-northeast1-aiplatform-mcp-endpoints": {
+      "serverUrl": "https://northamerica-northeast1-aiplatform.googleapis.com/mcp/endpoints",
+      "disabled": true
+    },
+    "northamerica-northeast1-aiplatform-mcp-evaluation": {
+      "serverUrl": "https://northamerica-northeast1-aiplatform.googleapis.com/mcp/evaluation",
+      "disabled": true
+    },
+    "northamerica-northeast1-aiplatform-mcp-generate": {
+      "serverUrl": "https://northamerica-northeast1-aiplatform.googleapis.com/mcp/generate",
+      "disabled": true
+    },
+    "northamerica-northeast1-aiplatform-mcp-models": {
+      "serverUrl": "https://northamerica-northeast1-aiplatform.googleapis.com/mcp/models",
+      "disabled": true
+    },
+    "northamerica-northeast1-aiplatform-mcp-notebook": {
+      "serverUrl": "https://northamerica-northeast1-aiplatform.googleapis.com/mcp/notebook",
+      "disabled": true
+    },
+    "northamerica-northeast1-aiplatform-mcp-predict": {
+      "serverUrl": "https://northamerica-northeast1-aiplatform.googleapis.com/mcp/predict",
+      "disabled": true
+    },
+    "northamerica-northeast1-aiplatform-mcp-prompts": {
+      "serverUrl": "https://northamerica-northeast1-aiplatform.googleapis.com/mcp/prompts",
+      "disabled": true
+    },
+    "northamerica-northeast1-aiplatform-mcp-retrieval": {
+      "serverUrl": "https://northamerica-northeast1-aiplatform.googleapis.com/mcp/retrieval",
+      "disabled": true
+    },
+    "northamerica-northeast1-aiplatform-mcp-tuning": {
+      "serverUrl": "https://northamerica-northeast1-aiplatform.googleapis.com/mcp/tuning",
+      "disabled": true
+    },
+    "northamerica-northeast1-datalineage-mcp": {
+      "serverUrl": "https://northamerica-northeast1-datalineage.googleapis.com/mcp",
+      "disabled": true
+    },
+    "northamerica-northeast2-aiplatform-mcp-endpoints": {
+      "serverUrl": "https://northamerica-northeast2-aiplatform.googleapis.com/mcp/endpoints",
+      "disabled": true
+    },
+    "northamerica-northeast2-aiplatform-mcp-evaluation": {
+      "serverUrl": "https://northamerica-northeast2-aiplatform.googleapis.com/mcp/evaluation",
+      "disabled": true
+    },
+    "northamerica-northeast2-aiplatform-mcp-generate": {
+      "serverUrl": "https://northamerica-northeast2-aiplatform.googleapis.com/mcp/generate",
+      "disabled": true
+    },
+    "northamerica-northeast2-aiplatform-mcp-models": {
+      "serverUrl": "https://northamerica-northeast2-aiplatform.googleapis.com/mcp/models",
+      "disabled": true
+    },
+    "northamerica-northeast2-aiplatform-mcp-notebook": {
+      "serverUrl": "https://northamerica-northeast2-aiplatform.googleapis.com/mcp/notebook",
+      "disabled": true
+    },
+    "northamerica-northeast2-aiplatform-mcp-predict": {
+      "serverUrl": "https://northamerica-northeast2-aiplatform.googleapis.com/mcp/predict",
+      "disabled": true
+    },
+    "northamerica-northeast2-aiplatform-mcp-prompts": {
+      "serverUrl": "https://northamerica-northeast2-aiplatform.googleapis.com/mcp/prompts",
+      "disabled": true
+    },
+    "northamerica-northeast2-aiplatform-mcp-retrieval": {
+      "serverUrl": "https://northamerica-northeast2-aiplatform.googleapis.com/mcp/retrieval",
+      "disabled": true
+    },
+    "northamerica-northeast2-aiplatform-mcp-tuning": {
+      "serverUrl": "https://northamerica-northeast2-aiplatform.googleapis.com/mcp/tuning",
+      "disabled": true
+    },
+    "northamerica-northeast2-datalineage-mcp": {
+      "serverUrl": "https://northamerica-northeast2-datalineage.googleapis.com/mcp",
+      "disabled": true
+    },
+    "northamerica-south1-datalineage-mcp": {
+      "serverUrl": "https://northamerica-south1-datalineage.googleapis.com/mcp",
+      "disabled": true
+    },
+    "oracledatabase-mcp": {
+      "serverUrl": "https://oracledatabase.googleapis.com/mcp",
+      "disabled": true
+    },
+    "orgpolicy-mcp": {
+      "serverUrl": "https://orgpolicy.googleapis.com/mcp",
+      "disabled": true
+    },
+    "paydeveloper-mcp": {
+      "serverUrl": "https://paydeveloper.googleapis.com/mcp",
+      "disabled": true
+    },
+    "people-mcp-v1": {
+      "serverUrl": "https://people.googleapis.com/mcp/v1",
+      "disabled": true
+    },
+    "policyassist-mcp": {
+      "serverUrl": "https://policyassist.googleapis.com/mcp",
+      "disabled": true
+    },
+    "policytroubleshooter-mcp": {
+      "serverUrl": "https://policytroubleshooter.googleapis.com/mcp",
+      "disabled": true
+    },
+    "pubsub-mcp": {
+      "serverUrl": "https://pubsub.googleapis.com/mcp",
+      "disabled": true
+    },
+    "recommender-mcp": {
+      "serverUrl": "https://recommender.googleapis.com/mcp",
+      "disabled": true
+    },
+    "redis-mcp": {
+      "serverUrl": "https://redis.googleapis.com/mcp",
+      "disabled": true
+    },
+    "run-mcp": {
+      "serverUrl": "https://run.googleapis.com/mcp",
+      "disabled": true
+    },
+    "saasservicemgmt-mcp": {
+      "serverUrl": "https://saasservicemgmt.googleapis.com/mcp",
+      "disabled": true
+    },
+    "securesourcemanager-europe-west4-rep-mcp-branch-rule": {
+      "serverUrl": "https://securesourcemanager.europe-west4.rep.googleapis.com/mcp/branch_rule",
+      "disabled": true
+    },
+    "securesourcemanager-europe-west4-rep-mcp-code-review": {
+      "serverUrl": "https://securesourcemanager.europe-west4.rep.googleapis.com/mcp/code_review",
+      "disabled": true
+    },
+    "securesourcemanager-europe-west4-rep-mcp-hook": {
+      "serverUrl": "https://securesourcemanager.europe-west4.rep.googleapis.com/mcp/hook",
+      "disabled": true
+    },
+    "securesourcemanager-europe-west4-rep-mcp-instance": {
+      "serverUrl": "https://securesourcemanager.europe-west4.rep.googleapis.com/mcp/instance",
+      "disabled": true
+    },
+    "securesourcemanager-europe-west4-rep-mcp-pull-request": {
+      "serverUrl": "https://securesourcemanager.europe-west4.rep.googleapis.com/mcp/pull_request",
+      "disabled": true
+    },
+    "securesourcemanager-europe-west4-rep-mcp-repository": {
+      "serverUrl": "https://securesourcemanager.europe-west4.rep.googleapis.com/mcp/repository",
+      "disabled": true
+    },
+    "securesourcemanager-us-central1-rep-mcp-branch-rule": {
+      "serverUrl": "https://securesourcemanager.us-central1.rep.googleapis.com/mcp/branch_rule",
+      "disabled": true
+    },
+    "securesourcemanager-us-central1-rep-mcp-code-review": {
+      "serverUrl": "https://securesourcemanager.us-central1.rep.googleapis.com/mcp/code_review",
+      "disabled": true
+    },
+    "securesourcemanager-us-central1-rep-mcp-hook": {
+      "serverUrl": "https://securesourcemanager.us-central1.rep.googleapis.com/mcp/hook",
+      "disabled": true
+    },
+    "securesourcemanager-us-central1-rep-mcp-instance": {
+      "serverUrl": "https://securesourcemanager.us-central1.rep.googleapis.com/mcp/instance",
+      "disabled": true
+    },
+    "securesourcemanager-us-central1-rep-mcp-pull-request": {
+      "serverUrl": "https://securesourcemanager.us-central1.rep.googleapis.com/mcp/pull_request",
+      "disabled": true
+    },
+    "securesourcemanager-us-central1-rep-mcp-repository": {
+      "serverUrl": "https://securesourcemanager.us-central1.rep.googleapis.com/mcp/repository",
+      "disabled": true
+    },
+    "securitycenter-mcp-investigate": {
+      "serverUrl": "https://securitycenter.googleapis.com/mcp/investigate",
+      "disabled": true
+    },
+    "securitycentermanagement-mcp-manage-services": {
+      "serverUrl": "https://securitycentermanagement.googleapis.com/mcp/manage-services",
+      "disabled": true
+    },
+    "servicehealth-mcp": {
+      "serverUrl": "https://servicehealth.googleapis.com/mcp",
+      "disabled": true
+    },
+    "southamerica-east1-aiplatform-mcp-endpoints": {
+      "serverUrl": "https://southamerica-east1-aiplatform.googleapis.com/mcp/endpoints",
+      "disabled": true
+    },
+    "southamerica-east1-aiplatform-mcp-evaluation": {
+      "serverUrl": "https://southamerica-east1-aiplatform.googleapis.com/mcp/evaluation",
+      "disabled": true
+    },
+    "southamerica-east1-aiplatform-mcp-generate": {
+      "serverUrl": "https://southamerica-east1-aiplatform.googleapis.com/mcp/generate",
+      "disabled": true
+    },
+    "southamerica-east1-aiplatform-mcp-models": {
+      "serverUrl": "https://southamerica-east1-aiplatform.googleapis.com/mcp/models",
+      "disabled": true
+    },
+    "southamerica-east1-aiplatform-mcp-notebook": {
+      "serverUrl": "https://southamerica-east1-aiplatform.googleapis.com/mcp/notebook",
+      "disabled": true
+    },
+    "southamerica-east1-aiplatform-mcp-predict": {
+      "serverUrl": "https://southamerica-east1-aiplatform.googleapis.com/mcp/predict",
+      "disabled": true
+    },
+    "southamerica-east1-aiplatform-mcp-prompts": {
+      "serverUrl": "https://southamerica-east1-aiplatform.googleapis.com/mcp/prompts",
+      "disabled": true
+    },
+    "southamerica-east1-aiplatform-mcp-retrieval": {
+      "serverUrl": "https://southamerica-east1-aiplatform.googleapis.com/mcp/retrieval",
+      "disabled": true
+    },
+    "southamerica-east1-aiplatform-mcp-tuning": {
+      "serverUrl": "https://southamerica-east1-aiplatform.googleapis.com/mcp/tuning",
+      "disabled": true
+    },
+    "southamerica-east1-datalineage-mcp": {
+      "serverUrl": "https://southamerica-east1-datalineage.googleapis.com/mcp",
+      "disabled": true
+    },
+    "southamerica-west1-aiplatform-mcp-endpoints": {
+      "serverUrl": "https://southamerica-west1-aiplatform.googleapis.com/mcp/endpoints",
+      "disabled": true
+    },
+    "southamerica-west1-aiplatform-mcp-evaluation": {
+      "serverUrl": "https://southamerica-west1-aiplatform.googleapis.com/mcp/evaluation",
+      "disabled": true
+    },
+    "southamerica-west1-aiplatform-mcp-generate": {
+      "serverUrl": "https://southamerica-west1-aiplatform.googleapis.com/mcp/generate",
+      "disabled": true
+    },
+    "southamerica-west1-aiplatform-mcp-models": {
+      "serverUrl": "https://southamerica-west1-aiplatform.googleapis.com/mcp/models",
+      "disabled": true
+    },
+    "southamerica-west1-aiplatform-mcp-notebook": {
+      "serverUrl": "https://southamerica-west1-aiplatform.googleapis.com/mcp/notebook",
+      "disabled": true
+    },
+    "southamerica-west1-aiplatform-mcp-predict": {
+      "serverUrl": "https://southamerica-west1-aiplatform.googleapis.com/mcp/predict",
+      "disabled": true
+    },
+    "southamerica-west1-aiplatform-mcp-prompts": {
+      "serverUrl": "https://southamerica-west1-aiplatform.googleapis.com/mcp/prompts",
+      "disabled": true
+    },
+    "southamerica-west1-aiplatform-mcp-retrieval": {
+      "serverUrl": "https://southamerica-west1-aiplatform.googleapis.com/mcp/retrieval",
+      "disabled": true
+    },
+    "southamerica-west1-aiplatform-mcp-tuning": {
+      "serverUrl": "https://southamerica-west1-aiplatform.googleapis.com/mcp/tuning",
+      "disabled": true
+    },
+    "southamerica-west1-datalineage-mcp": {
+      "serverUrl": "https://southamerica-west1-datalineage.googleapis.com/mcp",
+      "disabled": true
+    },
+    "spanner-mcp": {
+      "serverUrl": "https://spanner.googleapis.com/mcp",
+      "disabled": true
+    },
+    "sqladmin-mcp": {
+      "serverUrl": "https://sqladmin.googleapis.com/mcp",
+      "disabled": true
+    },
+    "stitch-mcp": {
+      "serverUrl": "https://stitch.googleapis.com/mcp",
+      "disabled": true
+    },
+    "storage-storage-mcp": {
+      "serverUrl": "https://storage.googleapis.com/storage/mcp",
+      "disabled": true
+    },
+    "us-central1-aiplatform-mcp-endpoints": {
+      "serverUrl": "https://us-central1-aiplatform.googleapis.com/mcp/endpoints",
+      "disabled": true
+    },
+    "us-central1-aiplatform-mcp-evaluation": {
+      "serverUrl": "https://us-central1-aiplatform.googleapis.com/mcp/evaluation",
+      "disabled": true
+    },
+    "us-central1-aiplatform-mcp-generate": {
+      "serverUrl": "https://us-central1-aiplatform.googleapis.com/mcp/generate",
+      "disabled": true
+    },
+    "us-central1-aiplatform-mcp-models": {
+      "serverUrl": "https://us-central1-aiplatform.googleapis.com/mcp/models",
+      "disabled": true
+    },
+    "us-central1-aiplatform-mcp-notebook": {
+      "serverUrl": "https://us-central1-aiplatform.googleapis.com/mcp/notebook",
+      "disabled": true
+    },
+    "us-central1-aiplatform-mcp-predict": {
+      "serverUrl": "https://us-central1-aiplatform.googleapis.com/mcp/predict",
+      "disabled": true
+    },
+    "us-central1-aiplatform-mcp-prompts": {
+      "serverUrl": "https://us-central1-aiplatform.googleapis.com/mcp/prompts",
+      "disabled": true
+    },
+    "us-central1-aiplatform-mcp-retrieval": {
+      "serverUrl": "https://us-central1-aiplatform.googleapis.com/mcp/retrieval",
+      "disabled": true
+    },
+    "us-central1-aiplatform-mcp-tuning": {
+      "serverUrl": "https://us-central1-aiplatform.googleapis.com/mcp/tuning",
+      "disabled": true
+    },
+    "us-central1-datalineage-mcp": {
+      "serverUrl": "https://us-central1-datalineage.googleapis.com/mcp",
+      "disabled": true
+    },
+    "us-central2-aiplatform-mcp-endpoints": {
+      "serverUrl": "https://us-central2-aiplatform.googleapis.com/mcp/endpoints",
+      "disabled": true
+    },
+    "us-central2-aiplatform-mcp-evaluation": {
+      "serverUrl": "https://us-central2-aiplatform.googleapis.com/mcp/evaluation",
+      "disabled": true
+    },
+    "us-central2-aiplatform-mcp-generate": {
+      "serverUrl": "https://us-central2-aiplatform.googleapis.com/mcp/generate",
+      "disabled": true
+    },
+    "us-central2-aiplatform-mcp-models": {
+      "serverUrl": "https://us-central2-aiplatform.googleapis.com/mcp/models",
+      "disabled": true
+    },
+    "us-central2-aiplatform-mcp-notebook": {
+      "serverUrl": "https://us-central2-aiplatform.googleapis.com/mcp/notebook",
+      "disabled": true
+    },
+    "us-central2-aiplatform-mcp-predict": {
+      "serverUrl": "https://us-central2-aiplatform.googleapis.com/mcp/predict",
+      "disabled": true
+    },
+    "us-central2-aiplatform-mcp-prompts": {
+      "serverUrl": "https://us-central2-aiplatform.googleapis.com/mcp/prompts",
+      "disabled": true
+    },
+    "us-central2-aiplatform-mcp-retrieval": {
+      "serverUrl": "https://us-central2-aiplatform.googleapis.com/mcp/retrieval",
+      "disabled": true
+    },
+    "us-central2-aiplatform-mcp-tuning": {
+      "serverUrl": "https://us-central2-aiplatform.googleapis.com/mcp/tuning",
+      "disabled": true
+    },
+    "us-east1-aiplatform-mcp-endpoints": {
+      "serverUrl": "https://us-east1-aiplatform.googleapis.com/mcp/endpoints",
+      "disabled": true
+    },
+    "us-east1-aiplatform-mcp-evaluation": {
+      "serverUrl": "https://us-east1-aiplatform.googleapis.com/mcp/evaluation",
+      "disabled": true
+    },
+    "us-east1-aiplatform-mcp-generate": {
+      "serverUrl": "https://us-east1-aiplatform.googleapis.com/mcp/generate",
+      "disabled": true
+    },
+    "us-east1-aiplatform-mcp-models": {
+      "serverUrl": "https://us-east1-aiplatform.googleapis.com/mcp/models",
+      "disabled": true
+    },
+    "us-east1-aiplatform-mcp-notebook": {
+      "serverUrl": "https://us-east1-aiplatform.googleapis.com/mcp/notebook",
+      "disabled": true
+    },
+    "us-east1-aiplatform-mcp-predict": {
+      "serverUrl": "https://us-east1-aiplatform.googleapis.com/mcp/predict",
+      "disabled": true
+    },
+    "us-east1-aiplatform-mcp-prompts": {
+      "serverUrl": "https://us-east1-aiplatform.googleapis.com/mcp/prompts",
+      "disabled": true
+    },
+    "us-east1-aiplatform-mcp-retrieval": {
+      "serverUrl": "https://us-east1-aiplatform.googleapis.com/mcp/retrieval",
+      "disabled": true
+    },
+    "us-east1-aiplatform-mcp-tuning": {
+      "serverUrl": "https://us-east1-aiplatform.googleapis.com/mcp/tuning",
+      "disabled": true
+    },
+    "us-east1-datalineage-mcp": {
+      "serverUrl": "https://us-east1-datalineage.googleapis.com/mcp",
+      "disabled": true
+    },
+    "us-east2-aiplatform-mcp-endpoints": {
+      "serverUrl": "https://us-east2-aiplatform.googleapis.com/mcp/endpoints",
+      "disabled": true
+    },
+    "us-east2-aiplatform-mcp-evaluation": {
+      "serverUrl": "https://us-east2-aiplatform.googleapis.com/mcp/evaluation",
+      "disabled": true
+    },
+    "us-east2-aiplatform-mcp-generate": {
+      "serverUrl": "https://us-east2-aiplatform.googleapis.com/mcp/generate",
+      "disabled": true
+    },
+    "us-east2-aiplatform-mcp-models": {
+      "serverUrl": "https://us-east2-aiplatform.googleapis.com/mcp/models",
+      "disabled": true
+    },
+    "us-east2-aiplatform-mcp-notebook": {
+      "serverUrl": "https://us-east2-aiplatform.googleapis.com/mcp/notebook",
+      "disabled": true
+    },
+    "us-east2-aiplatform-mcp-predict": {
+      "serverUrl": "https://us-east2-aiplatform.googleapis.com/mcp/predict",
+      "disabled": true
+    },
+    "us-east2-aiplatform-mcp-prompts": {
+      "serverUrl": "https://us-east2-aiplatform.googleapis.com/mcp/prompts",
+      "disabled": true
+    },
+    "us-east2-aiplatform-mcp-retrieval": {
+      "serverUrl": "https://us-east2-aiplatform.googleapis.com/mcp/retrieval",
+      "disabled": true
+    },
+    "us-east2-aiplatform-mcp-tuning": {
+      "serverUrl": "https://us-east2-aiplatform.googleapis.com/mcp/tuning",
+      "disabled": true
+    },
+    "us-east4-aiplatform-mcp-endpoints": {
+      "serverUrl": "https://us-east4-aiplatform.googleapis.com/mcp/endpoints",
+      "disabled": true
+    },
+    "us-east4-aiplatform-mcp-evaluation": {
+      "serverUrl": "https://us-east4-aiplatform.googleapis.com/mcp/evaluation",
+      "disabled": true
+    },
+    "us-east4-aiplatform-mcp-generate": {
+      "serverUrl": "https://us-east4-aiplatform.googleapis.com/mcp/generate",
+      "disabled": true
+    },
+    "us-east4-aiplatform-mcp-models": {
+      "serverUrl": "https://us-east4-aiplatform.googleapis.com/mcp/models",
+      "disabled": true
+    },
+    "us-east4-aiplatform-mcp-notebook": {
+      "serverUrl": "https://us-east4-aiplatform.googleapis.com/mcp/notebook",
+      "disabled": true
+    },
+    "us-east4-aiplatform-mcp-predict": {
+      "serverUrl": "https://us-east4-aiplatform.googleapis.com/mcp/predict",
+      "disabled": true
+    },
+    "us-east4-aiplatform-mcp-prompts": {
+      "serverUrl": "https://us-east4-aiplatform.googleapis.com/mcp/prompts",
+      "disabled": true
+    },
+    "us-east4-aiplatform-mcp-retrieval": {
+      "serverUrl": "https://us-east4-aiplatform.googleapis.com/mcp/retrieval",
+      "disabled": true
+    },
+    "us-east4-aiplatform-mcp-tuning": {
+      "serverUrl": "https://us-east4-aiplatform.googleapis.com/mcp/tuning",
+      "disabled": true
+    },
+    "us-east4-datalineage-mcp": {
+      "serverUrl": "https://us-east4-datalineage.googleapis.com/mcp",
+      "disabled": true
+    },
+    "us-east5-aiplatform-mcp-endpoints": {
+      "serverUrl": "https://us-east5-aiplatform.googleapis.com/mcp/endpoints",
+      "disabled": true
+    },
+    "us-east5-aiplatform-mcp-evaluation": {
+      "serverUrl": "https://us-east5-aiplatform.googleapis.com/mcp/evaluation",
+      "disabled": true
+    },
+    "us-east5-aiplatform-mcp-generate": {
+      "serverUrl": "https://us-east5-aiplatform.googleapis.com/mcp/generate",
+      "disabled": true
+    },
+    "us-east5-aiplatform-mcp-models": {
+      "serverUrl": "https://us-east5-aiplatform.googleapis.com/mcp/models",
+      "disabled": true
+    },
+    "us-east5-aiplatform-mcp-notebook": {
+      "serverUrl": "https://us-east5-aiplatform.googleapis.com/mcp/notebook",
+      "disabled": true
+    },
+    "us-east5-aiplatform-mcp-predict": {
+      "serverUrl": "https://us-east5-aiplatform.googleapis.com/mcp/predict",
+      "disabled": true
+    },
+    "us-east5-aiplatform-mcp-prompts": {
+      "serverUrl": "https://us-east5-aiplatform.googleapis.com/mcp/prompts",
+      "disabled": true
+    },
+    "us-east5-aiplatform-mcp-retrieval": {
+      "serverUrl": "https://us-east5-aiplatform.googleapis.com/mcp/retrieval",
+      "disabled": true
+    },
+    "us-east5-aiplatform-mcp-tuning": {
+      "serverUrl": "https://us-east5-aiplatform.googleapis.com/mcp/tuning",
+      "disabled": true
+    },
+    "us-east5-datalineage-mcp": {
+      "serverUrl": "https://us-east5-datalineage.googleapis.com/mcp",
+      "disabled": true
+    },
+    "us-east7-aiplatform-mcp-endpoints": {
+      "serverUrl": "https://us-east7-aiplatform.googleapis.com/mcp/endpoints",
+      "disabled": true
+    },
+    "us-east7-aiplatform-mcp-evaluation": {
+      "serverUrl": "https://us-east7-aiplatform.googleapis.com/mcp/evaluation",
+      "disabled": true
+    },
+    "us-east7-aiplatform-mcp-generate": {
+      "serverUrl": "https://us-east7-aiplatform.googleapis.com/mcp/generate",
+      "disabled": true
+    },
+    "us-east7-aiplatform-mcp-models": {
+      "serverUrl": "https://us-east7-aiplatform.googleapis.com/mcp/models",
+      "disabled": true
+    },
+    "us-east7-aiplatform-mcp-notebook": {
+      "serverUrl": "https://us-east7-aiplatform.googleapis.com/mcp/notebook",
+      "disabled": true
+    },
+    "us-east7-aiplatform-mcp-predict": {
+      "serverUrl": "https://us-east7-aiplatform.googleapis.com/mcp/predict",
+      "disabled": true
+    },
+    "us-east7-aiplatform-mcp-prompts": {
+      "serverUrl": "https://us-east7-aiplatform.googleapis.com/mcp/prompts",
+      "disabled": true
+    },
+    "us-east7-aiplatform-mcp-retrieval": {
+      "serverUrl": "https://us-east7-aiplatform.googleapis.com/mcp/retrieval",
+      "disabled": true
+    },
+    "us-east7-aiplatform-mcp-tuning": {
+      "serverUrl": "https://us-east7-aiplatform.googleapis.com/mcp/tuning",
+      "disabled": true
+    },
+    "us-south1-aiplatform-mcp-endpoints": {
+      "serverUrl": "https://us-south1-aiplatform.googleapis.com/mcp/endpoints",
+      "disabled": true
+    },
+    "us-south1-aiplatform-mcp-evaluation": {
+      "serverUrl": "https://us-south1-aiplatform.googleapis.com/mcp/evaluation",
+      "disabled": true
+    },
+    "us-south1-aiplatform-mcp-generate": {
+      "serverUrl": "https://us-south1-aiplatform.googleapis.com/mcp/generate",
+      "disabled": true
+    },
+    "us-south1-aiplatform-mcp-models": {
+      "serverUrl": "https://us-south1-aiplatform.googleapis.com/mcp/models",
+      "disabled": true
+    },
+    "us-south1-aiplatform-mcp-notebook": {
+      "serverUrl": "https://us-south1-aiplatform.googleapis.com/mcp/notebook",
+      "disabled": true
+    },
+    "us-south1-aiplatform-mcp-predict": {
+      "serverUrl": "https://us-south1-aiplatform.googleapis.com/mcp/predict",
+      "disabled": true
+    },
+    "us-south1-aiplatform-mcp-prompts": {
+      "serverUrl": "https://us-south1-aiplatform.googleapis.com/mcp/prompts",
+      "disabled": true
+    },
+    "us-south1-aiplatform-mcp-retrieval": {
+      "serverUrl": "https://us-south1-aiplatform.googleapis.com/mcp/retrieval",
+      "disabled": true
+    },
+    "us-south1-aiplatform-mcp-tuning": {
+      "serverUrl": "https://us-south1-aiplatform.googleapis.com/mcp/tuning",
+      "disabled": true
+    },
+    "us-south1-datalineage-mcp": {
+      "serverUrl": "https://us-south1-datalineage.googleapis.com/mcp",
+      "disabled": true
+    },
+    "us-west1-aiplatform-mcp-endpoints": {
+      "serverUrl": "https://us-west1-aiplatform.googleapis.com/mcp/endpoints",
+      "disabled": true
+    },
+    "us-west1-aiplatform-mcp-evaluation": {
+      "serverUrl": "https://us-west1-aiplatform.googleapis.com/mcp/evaluation",
+      "disabled": true
+    },
+    "us-west1-aiplatform-mcp-generate": {
+      "serverUrl": "https://us-west1-aiplatform.googleapis.com/mcp/generate",
+      "disabled": true
+    },
+    "us-west1-aiplatform-mcp-models": {
+      "serverUrl": "https://us-west1-aiplatform.googleapis.com/mcp/models",
+      "disabled": true
+    },
+    "us-west1-aiplatform-mcp-notebook": {
+      "serverUrl": "https://us-west1-aiplatform.googleapis.com/mcp/notebook",
+      "disabled": true
+    },
+    "us-west1-aiplatform-mcp-predict": {
+      "serverUrl": "https://us-west1-aiplatform.googleapis.com/mcp/predict",
+      "disabled": true
+    },
+    "us-west1-aiplatform-mcp-prompts": {
+      "serverUrl": "https://us-west1-aiplatform.googleapis.com/mcp/prompts",
+      "disabled": true
+    },
+    "us-west1-aiplatform-mcp-retrieval": {
+      "serverUrl": "https://us-west1-aiplatform.googleapis.com/mcp/retrieval",
+      "disabled": true
+    },
+    "us-west1-aiplatform-mcp-tuning": {
+      "serverUrl": "https://us-west1-aiplatform.googleapis.com/mcp/tuning",
+      "disabled": true
+    },
+    "us-west1-datalineage-mcp": {
+      "serverUrl": "https://us-west1-datalineage.googleapis.com/mcp",
+      "disabled": true
+    },
+    "us-west2-aiplatform-mcp-endpoints": {
+      "serverUrl": "https://us-west2-aiplatform.googleapis.com/mcp/endpoints",
+      "disabled": true
+    },
+    "us-west2-aiplatform-mcp-evaluation": {
+      "serverUrl": "https://us-west2-aiplatform.googleapis.com/mcp/evaluation",
+      "disabled": true
+    },
+    "us-west2-aiplatform-mcp-generate": {
+      "serverUrl": "https://us-west2-aiplatform.googleapis.com/mcp/generate",
+      "disabled": true
+    },
+    "us-west2-aiplatform-mcp-models": {
+      "serverUrl": "https://us-west2-aiplatform.googleapis.com/mcp/models",
+      "disabled": true
+    },
+    "us-west2-aiplatform-mcp-notebook": {
+      "serverUrl": "https://us-west2-aiplatform.googleapis.com/mcp/notebook",
+      "disabled": true
+    },
+    "us-west2-aiplatform-mcp-predict": {
+      "serverUrl": "https://us-west2-aiplatform.googleapis.com/mcp/predict",
+      "disabled": true
+    },
+    "us-west2-aiplatform-mcp-prompts": {
+      "serverUrl": "https://us-west2-aiplatform.googleapis.com/mcp/prompts",
+      "disabled": true
+    },
+    "us-west2-aiplatform-mcp-retrieval": {
+      "serverUrl": "https://us-west2-aiplatform.googleapis.com/mcp/retrieval",
+      "disabled": true
+    },
+    "us-west2-aiplatform-mcp-tuning": {
+      "serverUrl": "https://us-west2-aiplatform.googleapis.com/mcp/tuning",
+      "disabled": true
+    },
+    "us-west2-datalineage-mcp": {
+      "serverUrl": "https://us-west2-datalineage.googleapis.com/mcp",
+      "disabled": true
+    },
+    "us-west3-aiplatform-mcp-endpoints": {
+      "serverUrl": "https://us-west3-aiplatform.googleapis.com/mcp/endpoints",
+      "disabled": true
+    },
+    "us-west3-aiplatform-mcp-evaluation": {
+      "serverUrl": "https://us-west3-aiplatform.googleapis.com/mcp/evaluation",
+      "disabled": true
+    },
+    "us-west3-aiplatform-mcp-generate": {
+      "serverUrl": "https://us-west3-aiplatform.googleapis.com/mcp/generate",
+      "disabled": true
+    },
+    "us-west3-aiplatform-mcp-models": {
+      "serverUrl": "https://us-west3-aiplatform.googleapis.com/mcp/models",
+      "disabled": true
+    },
+    "us-west3-aiplatform-mcp-notebook": {
+      "serverUrl": "https://us-west3-aiplatform.googleapis.com/mcp/notebook",
+      "disabled": true
+    },
+    "us-west3-aiplatform-mcp-predict": {
+      "serverUrl": "https://us-west3-aiplatform.googleapis.com/mcp/predict",
+      "disabled": true
+    },
+    "us-west3-aiplatform-mcp-prompts": {
+      "serverUrl": "https://us-west3-aiplatform.googleapis.com/mcp/prompts",
+      "disabled": true
+    },
+    "us-west3-aiplatform-mcp-retrieval": {
+      "serverUrl": "https://us-west3-aiplatform.googleapis.com/mcp/retrieval",
+      "disabled": true
+    },
+    "us-west3-aiplatform-mcp-tuning": {
+      "serverUrl": "https://us-west3-aiplatform.googleapis.com/mcp/tuning",
+      "disabled": true
+    },
+    "us-west3-datalineage-mcp": {
+      "serverUrl": "https://us-west3-datalineage.googleapis.com/mcp",
+      "disabled": true
+    },
+    "us-west4-aiplatform-mcp-endpoints": {
+      "serverUrl": "https://us-west4-aiplatform.googleapis.com/mcp/endpoints",
+      "disabled": true
+    },
+    "us-west4-aiplatform-mcp-evaluation": {
+      "serverUrl": "https://us-west4-aiplatform.googleapis.com/mcp/evaluation",
+      "disabled": true
+    },
+    "us-west4-aiplatform-mcp-generate": {
+      "serverUrl": "https://us-west4-aiplatform.googleapis.com/mcp/generate",
+      "disabled": true
+    },
+    "us-west4-aiplatform-mcp-models": {
+      "serverUrl": "https://us-west4-aiplatform.googleapis.com/mcp/models",
+      "disabled": true
+    },
+    "us-west4-aiplatform-mcp-notebook": {
+      "serverUrl": "https://us-west4-aiplatform.googleapis.com/mcp/notebook",
+      "disabled": true
+    },
+    "us-west4-aiplatform-mcp-predict": {
+      "serverUrl": "https://us-west4-aiplatform.googleapis.com/mcp/predict",
+      "disabled": true
+    },
+    "us-west4-aiplatform-mcp-prompts": {
+      "serverUrl": "https://us-west4-aiplatform.googleapis.com/mcp/prompts",
+      "disabled": true
+    },
+    "us-west4-aiplatform-mcp-retrieval": {
+      "serverUrl": "https://us-west4-aiplatform.googleapis.com/mcp/retrieval",
+      "disabled": true
+    },
+    "us-west4-aiplatform-mcp-tuning": {
+      "serverUrl": "https://us-west4-aiplatform.googleapis.com/mcp/tuning",
+      "disabled": true
+    },
+    "us-west4-datalineage-mcp": {
+      "serverUrl": "https://us-west4-datalineage.googleapis.com/mcp",
+      "disabled": true
+    },
+    "us-west8-aiplatform-mcp-endpoints": {
+      "serverUrl": "https://us-west8-aiplatform.googleapis.com/mcp/endpoints",
+      "disabled": true
+    },
+    "us-west8-aiplatform-mcp-evaluation": {
+      "serverUrl": "https://us-west8-aiplatform.googleapis.com/mcp/evaluation",
+      "disabled": true
+    },
+    "us-west8-aiplatform-mcp-generate": {
+      "serverUrl": "https://us-west8-aiplatform.googleapis.com/mcp/generate",
+      "disabled": true
+    },
+    "us-west8-aiplatform-mcp-models": {
+      "serverUrl": "https://us-west8-aiplatform.googleapis.com/mcp/models",
+      "disabled": true
+    },
+    "us-west8-aiplatform-mcp-notebook": {
+      "serverUrl": "https://us-west8-aiplatform.googleapis.com/mcp/notebook",
+      "disabled": true
+    },
+    "us-west8-aiplatform-mcp-predict": {
+      "serverUrl": "https://us-west8-aiplatform.googleapis.com/mcp/predict",
+      "disabled": true
+    },
+    "us-west8-aiplatform-mcp-prompts": {
+      "serverUrl": "https://us-west8-aiplatform.googleapis.com/mcp/prompts",
+      "disabled": true
+    },
+    "us-west8-aiplatform-mcp-retrieval": {
+      "serverUrl": "https://us-west8-aiplatform.googleapis.com/mcp/retrieval",
+      "disabled": true
+    },
+    "us-west8-aiplatform-mcp-tuning": {
+      "serverUrl": "https://us-west8-aiplatform.googleapis.com/mcp/tuning",
+      "disabled": true
+    },
+    "vectorsearch-mcp": {
+      "serverUrl": "https://vectorsearch.googleapis.com/mcp",
+      "disabled": true
+    }
+  }
+}

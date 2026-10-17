@@ -1,0 +1,1403 @@
+{
+  "reviewed": "2026-10-17",
+  "sources": [
+    "https://antigravity.google/docs/mcp/",
+    "https://github.com/google/mcp",
+    "https://github.com/google-antigravity/antigravity-cli"
+  ],
+  "servers": [
+    {
+      "id": "alloydb-for-postgresql",
+      "name": "AlloyDB for PostgreSQL",
+      "category": "Databases and storage (15 servers)",
+      "source_url": "https://cloud.google.com/alloydb/docs/ai/use-alloydb-mcp",
+      "listed_in": [
+        "antigravity-website",
+        "google/mcp"
+      ],
+      "configuration_keys": [
+        "alloydb-for-postgresql"
+      ],
+      "status": "template",
+      "setup": "Google credentials, API/MCP enablement, project and IAM permissions. Regional/account restrictions apply."
+    },
+    {
+      "id": "bigquery",
+      "name": "BigQuery",
+      "category": "Databases and storage (15 servers)",
+      "source_url": "https://cloud.google.com/bigquery/docs/use-bigquery-mcp",
+      "listed_in": [
+        "antigravity-website",
+        "google/mcp"
+      ],
+      "configuration_keys": [
+        "bigquery"
+      ],
+      "status": "template",
+      "setup": "Google credentials, API/MCP enablement, project and IAM permissions. Regional/account restrictions apply."
+    },
+    {
+      "id": "bigtable-admin-remote-mcp",
+      "name": "Bigtable Admin remote MCP",
+      "category": "Databases and storage (15 servers)",
+      "source_url": "https://docs.cloud.google.com/bigtable/docs/use-bigtable-mcp",
+      "listed_in": [
+        "antigravity-website",
+        "google/mcp"
+      ],
+      "configuration_keys": [
+        "bigtable-admin-remote-mcp"
+      ],
+      "status": "template",
+      "setup": "Google credentials, API/MCP enablement, project and IAM permissions. Regional/account restrictions apply."
+    },
+    {
+      "id": "clickhouse",
+      "name": "ClickHouse",
+      "category": "Databases and storage (15 servers)",
+      "source_url": "https://clickhouse.com/docs/use-cases/AI/MCP",
+      "listed_in": [
+        "antigravity-website"
+      ],
+      "configuration_keys": [
+        "clickhouse"
+      ],
+      "status": "template",
+      "setup": "Install uv. Configure the ClickHouse host, username and password."
+    },
+    {
+      "id": "cloud-sql-mysql-postgresql-sql-server-managed",
+      "name": "Cloud SQL (MySQL, PostgreSQL, SQL Server, Managed)",
+      "category": "Databases and storage (15 servers)",
+      "source_url": "https://docs.cloud.google.com/sql/docs/mysql/use-cloudsql-mcp",
+      "listed_in": [
+        "antigravity-website",
+        "google/mcp"
+      ],
+      "configuration_keys": [
+        "cloud-sql-mysql-postgresql-sql-server-managed"
+      ],
+      "status": "template",
+      "setup": "Google credentials, API/MCP enablement, project and IAM permissions. Regional/account restrictions apply."
+    },
+    {
+      "id": "dataplex",
+      "name": "Dataplex",
+      "category": "Databases and storage (15 servers)",
+      "source_url": "https://docs.cloud.google.com/dataplex/docs/use-remote-mcp",
+      "listed_in": [
+        "antigravity-website"
+      ],
+      "configuration_keys": [
+        "dataplex"
+      ],
+      "status": "template",
+      "setup": "Google credentials, API/MCP enablement, project and IAM permissions. Regional/account restrictions apply."
+    },
+    {
+      "id": "mcp-toolbox-for-databases",
+      "name": "MCP Toolbox for Databases",
+      "category": "Databases and storage (15 servers)",
+      "source_url": "https://mcp-toolbox.dev/documentation/introduction/",
+      "listed_in": [
+        "antigravity-website",
+        "google/mcp"
+      ],
+      "configuration_keys": [
+        "mcp-toolbox-for-databases"
+      ],
+      "status": "template",
+      "setup": "Create a Toolbox tools.yaml for your database."
+    },
+    {
+      "id": "mongodb",
+      "name": "MongoDB",
+      "category": "Databases and storage (15 servers)",
+      "source_url": "https://github.com/mongodb-js/mongodb-mcp-server",
+      "listed_in": [
+        "antigravity-website"
+      ],
+      "configuration_keys": [
+        "mongodb"
+      ],
+      "status": "template",
+      "setup": "Provide the connection string. This template requests read-only mode."
+    },
+    {
+      "id": "neo4j",
+      "name": "Neo4j",
+      "category": "Databases and storage (15 servers)",
+      "source_url": "https://neo4j.com/docs/mcp/current/",
+      "listed_in": [
+        "antigravity-website"
+      ],
+      "configuration_keys": [
+        "neo4j"
+      ],
+      "status": "template",
+      "setup": "Install the upstream Neo4j MCP server into a Python environment. Review its own required database settings before enabling.",
+      "setup_source_url": "https://github.com/neo4j/mcp"
+    },
+    {
+      "id": "neon",
+      "name": "Neon",
+      "category": "Databases and storage (15 servers)",
+      "source_url": "https://github.com/neondatabase-labs/mcp-server-neon",
+      "listed_in": [
+        "antigravity-website"
+      ],
+      "configuration_keys": [
+        "neon"
+      ],
+      "status": "template",
+      "setup": "OAuth or provider account setup"
+    },
+    {
+      "id": "pinecone",
+      "name": "Pinecone",
+      "category": "Databases and storage (15 servers)",
+      "source_url": "https://github.com/pinecone-io/pinecone-mcp",
+      "listed_in": [
+        "antigravity-website"
+      ],
+      "configuration_keys": [
+        "pinecone"
+      ],
+      "status": "template",
+      "setup": "Pinecone account and API key."
+    },
+    {
+      "id": "prisma",
+      "name": "Prisma",
+      "category": "Databases and storage (15 servers)",
+      "source_url": "https://github.com/prisma/prisma?tab=readme-ov-file#mcp-server",
+      "listed_in": [
+        "antigravity-website"
+      ],
+      "configuration_keys": [
+        "prisma"
+      ],
+      "status": "template",
+      "setup": "OAuth or provider account setup"
+    },
+    {
+      "id": "redis",
+      "name": "Redis",
+      "category": "Databases and storage (15 servers)",
+      "source_url": "https://github.com/redis/mcp-redis",
+      "listed_in": [
+        "antigravity-website"
+      ],
+      "configuration_keys": [
+        "redis"
+      ],
+      "status": "template",
+      "setup": "Install uv and set REDIS_URL to your database URL."
+    },
+    {
+      "id": "spanner",
+      "name": "Spanner",
+      "category": "Databases and storage (15 servers)",
+      "source_url": "https://docs.cloud.google.com/spanner/docs/use-spanner-mcp",
+      "listed_in": [
+        "antigravity-website",
+        "google/mcp"
+      ],
+      "configuration_keys": [
+        "spanner"
+      ],
+      "status": "template",
+      "setup": "Google credentials, API/MCP enablement, project and IAM permissions. Regional/account restrictions apply."
+    },
+    {
+      "id": "supabase",
+      "name": "Supabase",
+      "category": "Databases and storage (15 servers)",
+      "source_url": "https://github.com/supabase-community/supabase-mcp",
+      "listed_in": [
+        "antigravity-website"
+      ],
+      "configuration_keys": [
+        "supabase"
+      ],
+      "status": "template",
+      "setup": "OAuth or provider account setup"
+    },
+    {
+      "id": "apigee-mcp",
+      "name": "Apigee MCP",
+      "category": "Developer tools and CI/CD (17 servers)",
+      "source_url": "https://docs.cloud.google.com/apigee/docs/reference/apis/apihub/mcp",
+      "listed_in": [
+        "antigravity-website"
+      ],
+      "configuration_keys": [
+        "apigee-mcp"
+      ],
+      "status": "template",
+      "setup": "Google credentials, API/MCP enablement, project and IAM permissions. Regional/account restrictions apply."
+    },
+    {
+      "id": "atlassian",
+      "name": "Atlassian",
+      "category": "Developer tools and CI/CD (17 servers)",
+      "source_url": "https://support.atlassian.com/atlassian-rovo-mcp-server/docs/getting-started-with-the-atlassian-remote-mcp-server/",
+      "listed_in": [
+        "antigravity-website"
+      ],
+      "configuration_keys": [
+        "atlassian"
+      ],
+      "status": "template",
+      "setup": "OAuth or provider account setup"
+    },
+    {
+      "id": "cloud-cli-execution",
+      "name": "Cloud CLI Execution",
+      "category": "Developer tools and CI/CD (17 servers)",
+      "source_url": "https://docs.cloud.google.com/sdk/use-gcloud-mcp",
+      "listed_in": [
+        "antigravity-website"
+      ],
+      "configuration_keys": [
+        "cloud-cli-execution"
+      ],
+      "status": "template",
+      "setup": "Install gcloud CLI and authenticate the intended account."
+    },
+    {
+      "id": "forge",
+      "name": "Forge",
+      "category": "Developer tools and CI/CD (17 servers)",
+      "source_url": "https://app.softwareforge.ai/docs/introduction",
+      "listed_in": [
+        "antigravity-website"
+      ],
+      "configuration_keys": [],
+      "status": "manual-setup-required",
+      "setup": "The linked source does not establish a portable connection for this package. Install through the official MCP Store or obtain the endpoint/command and authentication details from the provider."
+    },
+    {
+      "id": "github",
+      "name": "GitHub",
+      "category": "Developer tools and CI/CD (17 servers)",
+      "source_url": "https://github.com/github/github-mcp-server",
+      "listed_in": [
+        "antigravity-website"
+      ],
+      "configuration_keys": [
+        "github"
+      ],
+      "status": "template",
+      "setup": "Provide a GitHub PAT with the permissions needed for your repositories."
+    },
+    {
+      "id": "gitlab-orbit",
+      "name": "GitLab Orbit",
+      "category": "Developer tools and CI/CD (17 servers)",
+      "source_url": "https://docs.gitlab.com/orbit/remote/access/mcp/",
+      "listed_in": [
+        "antigravity-website"
+      ],
+      "configuration_keys": [
+        "gitlab-orbit"
+      ],
+      "status": "template",
+      "setup": "OAuth or provider account setup"
+    },
+    {
+      "id": "gke-onemcp",
+      "name": "GKE OneMCP",
+      "category": "Developer tools and CI/CD (17 servers)",
+      "source_url": "https://docs.cloud.google.com/kubernetes-engine/docs/how-to/use-gke-mcp",
+      "listed_in": [
+        "antigravity-website"
+      ],
+      "configuration_keys": [
+        "gke-onemcp"
+      ],
+      "status": "template",
+      "setup": "Google credentials, API/MCP enablement, project and IAM permissions. Regional/account restrictions apply."
+    },
+    {
+      "id": "harness",
+      "name": "Harness",
+      "category": "Developer tools and CI/CD (17 servers)",
+      "source_url": "https://github.com/harness/mcp-server",
+      "listed_in": [
+        "antigravity-website"
+      ],
+      "configuration_keys": [
+        "harness"
+      ],
+      "status": "template",
+      "setup": "OAuth or provider account setup"
+    },
+    {
+      "id": "heroku",
+      "name": "Heroku",
+      "category": "Developer tools and CI/CD (17 servers)",
+      "source_url": "https://github.com/heroku/heroku-mcp-server",
+      "listed_in": [
+        "antigravity-website"
+      ],
+      "configuration_keys": [
+        "heroku"
+      ],
+      "status": "template",
+      "setup": "Install the Heroku CLI and its MCP capability. Authenticate the intended Heroku account."
+    },
+    {
+      "id": "home-developer-mcp",
+      "name": "Home Developer MCP",
+      "category": "Developer tools and CI/CD (17 servers)",
+      "source_url": "https://developers.home.google.com/mcp/developer",
+      "listed_in": [
+        "antigravity-website"
+      ],
+      "configuration_keys": [
+        "home-developer-mcp"
+      ],
+      "status": "template",
+      "setup": "Google credentials, API/MCP enablement, project and IAM permissions. Regional/account restrictions apply."
+    },
+    {
+      "id": "linear",
+      "name": "Linear",
+      "category": "Developer tools and CI/CD (17 servers)",
+      "source_url": "https://linear.app/changelog/2025-05-01-mcp",
+      "listed_in": [
+        "antigravity-website"
+      ],
+      "configuration_keys": [
+        "linear"
+      ],
+      "status": "template",
+      "setup": "OAuth or provider account setup"
+    },
+    {
+      "id": "mabl",
+      "name": "mabl",
+      "category": "Developer tools and CI/CD (17 servers)",
+      "source_url": "https://help.mabl.com/hc/en-us/articles/47299375773844-mabl-MCP-overview",
+      "listed_in": [
+        "antigravity-website"
+      ],
+      "configuration_keys": [
+        "mabl"
+      ],
+      "status": "template",
+      "setup": "Authenticate the mabl account and workspace.",
+      "setup_source_url": "https://help.mabl.com/hc/en-us/articles/47299404357780-Set-up-the-cloud-MCP-server"
+    },
+    {
+      "id": "netlify",
+      "name": "Netlify",
+      "category": "Developer tools and CI/CD (17 servers)",
+      "source_url": "https://github.com/netlify/netlify-mcp",
+      "listed_in": [
+        "antigravity-website"
+      ],
+      "configuration_keys": [
+        "netlify"
+      ],
+      "status": "template",
+      "setup": "Authenticate the Netlify CLI/MCP server."
+    },
+    {
+      "id": "opsera-ai-agents",
+      "name": "Opsera AI Agents",
+      "category": "Developer tools and CI/CD (17 servers)",
+      "source_url": "https://docs.agents.opsera.ai/",
+      "listed_in": [
+        "antigravity-website"
+      ],
+      "configuration_keys": [],
+      "status": "manual-setup-required",
+      "setup": "The linked source does not establish a portable connection for this package. Install through the official MCP Store or obtain the endpoint/command and authentication details from the provider."
+    },
+    {
+      "id": "postman",
+      "name": "Postman",
+      "category": "Developer tools and CI/CD (17 servers)",
+      "source_url": "https://github.com/postmanlabs/postman-mcp-server",
+      "listed_in": [
+        "antigravity-website"
+      ],
+      "configuration_keys": [
+        "postman"
+      ],
+      "status": "template",
+      "setup": "Postman API key."
+    },
+    {
+      "id": "sonarqube",
+      "name": "SonarQube",
+      "category": "Developer tools and CI/CD (17 servers)",
+      "source_url": "https://github.com/SonarSource/sonarqube-mcp-server",
+      "listed_in": [
+        "antigravity-website"
+      ],
+      "configuration_keys": [
+        "sonarqube"
+      ],
+      "status": "template",
+      "setup": "Install Docker and provide SonarQube Cloud token and organization."
+    },
+    {
+      "id": "vercel",
+      "name": "Vercel",
+      "category": "Developer tools and CI/CD (17 servers)",
+      "source_url": "https://vercel.com/docs/agent-resources/vercel-mcp",
+      "listed_in": [
+        "antigravity-website"
+      ],
+      "configuration_keys": [
+        "vercel"
+      ],
+      "status": "template",
+      "setup": "OAuth or provider account setup"
+    },
+    {
+      "id": "canva",
+      "name": "Canva",
+      "category": "Frontend and design (8 servers)",
+      "source_url": "https://www.canva.dev/docs/mcp/",
+      "listed_in": [
+        "antigravity-website"
+      ],
+      "configuration_keys": [
+        "canva"
+      ],
+      "status": "template",
+      "setup": "Create a Canva Developer Portal client and complete its OAuth setup. Waitlist clients use the alternate endpoint in the guide.",
+      "setup_source_url": "https://www.canva.dev/docs/apps/quickstart/"
+    },
+    {
+      "id": "chrome-devtools",
+      "name": "Chrome DevTools",
+      "category": "Frontend and design (8 servers)",
+      "source_url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "listed_in": [
+        "antigravity-website",
+        "google/mcp"
+      ],
+      "configuration_keys": [
+        "chrome-devtools"
+      ],
+      "status": "template",
+      "setup": "Node.js and system Chromium. This is a separate browser from the Playwright profile."
+    },
+    {
+      "id": "dart",
+      "name": "Dart",
+      "category": "Frontend and design (8 servers)",
+      "source_url": "https://dart.dev/tools/mcp-server",
+      "listed_in": [
+        "antigravity-website"
+      ],
+      "configuration_keys": [
+        "dart"
+      ],
+      "status": "template",
+      "setup": "Install a Dart SDK version supporting mcp-server."
+    },
+    {
+      "id": "figma-dev-mode-mcp",
+      "name": "Figma Dev Mode MCP",
+      "category": "Frontend and design (8 servers)",
+      "source_url": "https://help.figma.com/hc/en-us/articles/32132100833559-Guide-to-the-Dev-Mode-MCP-Server",
+      "listed_in": [
+        "antigravity-website"
+      ],
+      "configuration_keys": [
+        "figma-dev-mode-mcp"
+      ],
+      "status": "template",
+      "setup": "OAuth and Figma client eligibility, plan and rate limits apply. Endpoint verification does not prove every Figma tool works in this client."
+    },
+    {
+      "id": "locofy",
+      "name": "Locofy",
+      "category": "Frontend and design (8 servers)",
+      "source_url": "https://www.locofy.ai/docs/export-and-deployment/locofy-mcp/",
+      "listed_in": [
+        "antigravity-website"
+      ],
+      "configuration_keys": [],
+      "status": "manual-setup-required",
+      "setup": "The linked source does not establish a portable connection for this package. Install through the official MCP Store or obtain the endpoint/command and authentication details from the provider."
+    },
+    {
+      "id": "lovable-mcp",
+      "name": "Lovable MCP",
+      "category": "Frontend and design (8 servers)",
+      "source_url": "https://docs.lovable.dev/integrations/lovable-mcp-server",
+      "listed_in": [
+        "antigravity-website"
+      ],
+      "configuration_keys": [
+        "lovable-mcp"
+      ],
+      "status": "template",
+      "setup": "OAuth or provider account setup"
+    },
+    {
+      "id": "miro",
+      "name": "Miro",
+      "category": "Frontend and design (8 servers)",
+      "source_url": "https://developers.miro.com/docs/miro-mcp",
+      "listed_in": [
+        "antigravity-website"
+      ],
+      "configuration_keys": [
+        "miro"
+      ],
+      "status": "template",
+      "setup": "OAuth or provider account setup"
+    },
+    {
+      "id": "mobbin-mcp",
+      "name": "Mobbin MCP",
+      "category": "Frontend and design (8 servers)",
+      "source_url": "https://mobbin.com/mcp",
+      "listed_in": [
+        "antigravity-website"
+      ],
+      "configuration_keys": [
+        "mobbin-mcp"
+      ],
+      "status": "template",
+      "setup": "Mobbin OAuth and an eligible plan.",
+      "setup_source_url": "https://github.com/mobbin/mobbin-mcp-server"
+    },
+    {
+      "id": "crowdstrike",
+      "name": "CrowdStrike",
+      "category": "Security (4 servers)",
+      "source_url": "https://github.com/CrowdStrike/falcon-mcp",
+      "listed_in": [
+        "antigravity-website"
+      ],
+      "configuration_keys": [
+        "crowdstrike"
+      ],
+      "status": "template",
+      "setup": "Install uv and create the credential env file described by CrowdStrike."
+    },
+    {
+      "id": "endor-labs",
+      "name": "Endor Labs",
+      "category": "Security (4 servers)",
+      "source_url": "https://docs.endorlabs.com/setup-deployment/mcp/antigravity",
+      "listed_in": [
+        "antigravity-website"
+      ],
+      "configuration_keys": [
+        "endor-labs"
+      ],
+      "status": "template",
+      "setup": "Authenticate Endor Labs and configure its namespace."
+    },
+    {
+      "id": "splunk",
+      "name": "Splunk",
+      "category": "Security (4 servers)",
+      "source_url": "https://splunkbase.splunk.com/app/7931",
+      "listed_in": [
+        "antigravity-website"
+      ],
+      "configuration_keys": [
+        "splunk"
+      ],
+      "status": "template",
+      "setup": "Install/configure the official Splunk MCP app. Copy its endpoint and encrypted token. TLS verification remains enabled.",
+      "setup_source_url": "https://help.splunk.com/en/splunk-enterprise/mcp-server-for-splunk-platform/1.0/connecting-to-the-mcp-server-and-settings"
+    },
+    {
+      "id": "wiz",
+      "name": "Wiz",
+      "category": "Security (4 servers)",
+      "source_url": "https://www.wiz.io/blog/introducing-wiz-mcp",
+      "listed_in": [
+        "antigravity-website"
+      ],
+      "configuration_keys": [],
+      "status": "manual-setup-required",
+      "setup": "The linked source does not establish a portable connection for this package. Install through the official MCP Store or obtain the endpoint/command and authentication details from the provider."
+    },
+    {
+      "id": "airweave",
+      "name": "Airweave",
+      "category": "Analytics, AI, and cloud (32 servers)",
+      "source_url": "https://github.com/airweave-ai/airweave",
+      "listed_in": [
+        "antigravity-website"
+      ],
+      "configuration_keys": [
+        "airweave"
+      ],
+      "status": "template",
+      "setup": "Airweave OAuth and a synced collection.",
+      "setup_source_url": "https://docs.airweave.ai/mcp-server"
+    },
+    {
+      "id": "antimetal",
+      "name": "Antimetal",
+      "category": "Analytics, AI, and cloud (32 servers)",
+      "source_url": "https://docs.antimetal.com/connect",
+      "listed_in": [
+        "antigravity-website"
+      ],
+      "configuration_keys": [
+        "antimetal"
+      ],
+      "status": "template",
+      "setup": "OAuth or provider account setup"
+    },
+    {
+      "id": "arize",
+      "name": "Arize",
+      "category": "Analytics, AI, and cloud (32 servers)",
+      "source_url": "https://github.com/Arize-ai/arize-tracing-assistant",
+      "listed_in": [
+        "antigravity-website"
+      ],
+      "configuration_keys": [
+        "arize"
+      ],
+      "status": "template",
+      "setup": "Install uv and follow upstream Arize tracing integration setup."
+    },
+    {
+      "id": "cloud-audit-manager",
+      "name": "Cloud Audit Manager",
+      "category": "Analytics, AI, and cloud (32 servers)",
+      "source_url": "https://docs.cloud.google.com/audit-manager/docs/reference/auditmanager/mcp",
+      "listed_in": [
+        "antigravity-website"
+      ],
+      "configuration_keys": [
+        "cloud-audit-manager"
+      ],
+      "status": "template",
+      "setup": "Google credentials, API/MCP enablement, project and IAM permissions. Regional/account restrictions apply."
+    },
+    {
+      "id": "courtroom5",
+      "name": "Courtroom5",
+      "category": "Analytics, AI, and cloud (32 servers)",
+      "source_url": "https://courtroom5.com/",
+      "listed_in": [
+        "antigravity-website"
+      ],
+      "configuration_keys": [
+        "courtroom5"
+      ],
+      "status": "template",
+      "setup": "Public endpoint described in provider documentation. Client compatibility still requires verification.",
+      "setup_source_url": "https://courtroom5.com/gemini/"
+    },
+    {
+      "id": "daloopa",
+      "name": "Daloopa",
+      "category": "Analytics, AI, and cloud (32 servers)",
+      "source_url": "https://docs.daloopa.com/docs/mcp",
+      "listed_in": [
+        "antigravity-website"
+      ],
+      "configuration_keys": [
+        "daloopa"
+      ],
+      "status": "template",
+      "setup": "Linked Daloopa page documents its documentation MCP, not guaranteed financial-data tools. A separate data-service endpoint requires vendor setup."
+    },
+    {
+      "id": "docusign",
+      "name": "Docusign",
+      "category": "Analytics, AI, and cloud (32 servers)",
+      "source_url": "https://developers.docusign.com/platform/mcp-server/",
+      "listed_in": [
+        "antigravity-website"
+      ],
+      "configuration_keys": [
+        "docusign"
+      ],
+      "status": "template",
+      "setup": "Demo endpoint. Configure a Docusign integration key and OAuth client credentials before enabling.",
+      "setup_source_url": "https://developers.docusign.com/platform/mcp-server/anthropic-claude/claude-code/"
+    },
+    {
+      "id": "exa",
+      "name": "Exa",
+      "category": "Analytics, AI, and cloud (32 servers)",
+      "source_url": "https://docs.exa.ai/reference/exa-mcp",
+      "listed_in": [
+        "antigravity-website"
+      ],
+      "configuration_keys": [
+        "exa"
+      ],
+      "status": "template",
+      "setup": "OAuth or provider account setup"
+    },
+    {
+      "id": "factset-ai-ready-data",
+      "name": "FactSet AI-Ready Data",
+      "category": "Analytics, AI, and cloud (32 servers)",
+      "source_url": "https://developer.factset.com/mcp/factset-ai-ready-data-mcp",
+      "listed_in": [
+        "antigravity-website"
+      ],
+      "configuration_keys": [],
+      "status": "manual-setup-required",
+      "setup": "The linked source does not establish a portable connection for this package. Install through the official MCP Store or obtain the endpoint/command and authentication details from the provider."
+    },
+    {
+      "id": "finnhub",
+      "name": "Finnhub",
+      "category": "Analytics, AI, and cloud (32 servers)",
+      "source_url": "https://finnhub.io/mcp",
+      "listed_in": [
+        "antigravity-website"
+      ],
+      "configuration_keys": [
+        "finnhub"
+      ],
+      "status": "template",
+      "setup": "Finnhub account, data subscription and authentication as documented by the provider.",
+      "setup_source_url": "https://finnhub.io/static/finnhub-how-to-connect-mcp-server.html"
+    },
+    {
+      "id": "firebase",
+      "name": "Firebase",
+      "category": "Analytics, AI, and cloud (32 servers)",
+      "source_url": "https://firebase.google.com/docs/ai-assistance/mcp-server",
+      "listed_in": [
+        "antigravity-website",
+        "google/mcp"
+      ],
+      "configuration_keys": [
+        "firebase"
+      ],
+      "status": "template",
+      "setup": "Authenticate Firebase CLI and choose the intended project."
+    },
+    {
+      "id": "fiscal-ai",
+      "name": "Fiscal.ai",
+      "category": "Analytics, AI, and cloud (32 servers)",
+      "source_url": "https://docs.fiscal.ai/docs/guides/mcp-integration",
+      "listed_in": [
+        "antigravity-website"
+      ],
+      "configuration_keys": [
+        "fiscal-ai"
+      ],
+      "status": "template",
+      "setup": "OAuth or provider account setup"
+    },
+    {
+      "id": "google-cloud-quotas",
+      "name": "Google Cloud Quotas",
+      "category": "Analytics, AI, and cloud (32 servers)",
+      "source_url": "https://cloud.google.com/docs/quotas/overview",
+      "listed_in": [
+        "antigravity-website"
+      ],
+      "configuration_keys": [
+        "google-cloud-quotas"
+      ],
+      "status": "template",
+      "setup": "Google credentials, API/MCP enablement, project and IAM permissions. Regional/account restrictions apply."
+    },
+    {
+      "id": "grafana-cloud",
+      "name": "Grafana Cloud",
+      "category": "Analytics, AI, and cloud (32 servers)",
+      "source_url": "https://github.com/grafana/ai-marketplace/tree/main/plugins/grafana-cloud-mcp",
+      "listed_in": [
+        "antigravity-website"
+      ],
+      "configuration_keys": [
+        "grafana-cloud"
+      ],
+      "status": "template",
+      "setup": "OAuth or provider account setup"
+    },
+    {
+      "id": "guidepoint",
+      "name": "Guidepoint",
+      "category": "Analytics, AI, and cloud (32 servers)",
+      "source_url": "https://github.com/guidepointglobal/mcp-skills-plugins",
+      "listed_in": [
+        "antigravity-website"
+      ],
+      "configuration_keys": [],
+      "status": "manual-setup-required",
+      "setup": "The linked source does not establish a portable connection for this package. Install through the official MCP Store or obtain the endpoint/command and authentication details from the provider."
+    },
+    {
+      "id": "harvey",
+      "name": "Harvey",
+      "category": "Analytics, AI, and cloud (32 servers)",
+      "source_url": "https://developers.harvey.ai/guides/harvey_mcp",
+      "listed_in": [
+        "antigravity-website"
+      ],
+      "configuration_keys": [
+        "harvey"
+      ],
+      "status": "template",
+      "setup": "US endpoint. Use the EU or AU endpoint from the provider listing if your account resides there. Complete OAuth and client approval.",
+      "setup_source_url": "https://claude.com/marketplace/connectors/harvey"
+    },
+    {
+      "id": "imanage",
+      "name": "iManage",
+      "category": "Analytics, AI, and cloud (32 servers)",
+      "source_url": "https://docs.imanage.com/ai/mcpserver-user-help/en-US/iManage_MCP_Server_Help.html",
+      "listed_in": [
+        "antigravity-website"
+      ],
+      "configuration_keys": [],
+      "status": "manual-setup-required",
+      "setup": "The linked source does not establish a portable connection for this package. Install through the official MCP Store or obtain the endpoint/command and authentication details from the provider."
+    },
+    {
+      "id": "legalzoom",
+      "name": "LegalZoom",
+      "category": "Analytics, AI, and cloud (32 servers)",
+      "source_url": "https://www.legalzoom.com/ai",
+      "listed_in": [
+        "antigravity-website"
+      ],
+      "configuration_keys": [],
+      "status": "manual-setup-required",
+      "setup": "The linked source does not establish a portable connection for this package. Install through the official MCP Store or obtain the endpoint/command and authentication details from the provider."
+    },
+    {
+      "id": "looker",
+      "name": "Looker",
+      "category": "Analytics, AI, and cloud (32 servers)",
+      "source_url": "https://mcp-toolbox.dev/documentation/connect-to/ides/looker_mcp/",
+      "listed_in": [
+        "antigravity-website"
+      ],
+      "configuration_keys": [
+        "looker"
+      ],
+      "status": "template",
+      "setup": "Looker base URL and API client credentials."
+    },
+    {
+      "id": "lseg",
+      "name": "LSEG",
+      "category": "Analytics, AI, and cloud (32 servers)",
+      "source_url": "https://developers.lseg.com/",
+      "listed_in": [
+        "antigravity-website"
+      ],
+      "configuration_keys": [
+        "lseg"
+      ],
+      "status": "template",
+      "setup": "LSEG licensed account, entitlements and OAuth.",
+      "setup_source_url": "https://github.com/LSEG-API-Samples/lseg-claude-plugin/blob/main/.mcp.json"
+    },
+    {
+      "id": "netdocuments",
+      "name": "NetDocuments",
+      "category": "Analytics, AI, and cloud (32 servers)",
+      "source_url": "https://docs.cloud.google.com/gemini/enterprise/docs/connectors/netdocuments",
+      "listed_in": [
+        "antigravity-website"
+      ],
+      "configuration_keys": [],
+      "status": "manual-setup-required",
+      "setup": "The catalog links to a Gemini Enterprise connector guide. A connector listing does not establish an Antigravity MCP endpoint. Obtain a supported MCP endpoint from the provider."
+    },
+    {
+      "id": "notion",
+      "name": "Notion",
+      "category": "Analytics, AI, and cloud (32 servers)",
+      "source_url": "https://github.com/makenotion/notion-mcp-server",
+      "listed_in": [
+        "antigravity-website"
+      ],
+      "configuration_keys": [
+        "notion"
+      ],
+      "status": "template",
+      "setup": "OAuth or provider account setup"
+    },
+    {
+      "id": "parallel-search",
+      "name": "Parallel Search",
+      "category": "Analytics, AI, and cloud (32 servers)",
+      "source_url": "https://docs.parallel.ai/search/search-mcp",
+      "listed_in": [
+        "antigravity-website"
+      ],
+      "configuration_keys": [
+        "parallel-search"
+      ],
+      "status": "template",
+      "setup": "OAuth or provider account setup"
+    },
+    {
+      "id": "paypal",
+      "name": "PayPal",
+      "category": "Analytics, AI, and cloud (32 servers)",
+      "source_url": "https://developer.paypal.com/tools/mcp-server/",
+      "listed_in": [
+        "antigravity-website"
+      ],
+      "configuration_keys": [
+        "paypal"
+      ],
+      "status": "template",
+      "setup": "OAuth or provider account setup"
+    },
+    {
+      "id": "perplexity-ask",
+      "name": "Perplexity Ask",
+      "category": "Analytics, AI, and cloud (32 servers)",
+      "source_url": "https://github.com/ppl-ai/modelcontextprotocol",
+      "listed_in": [
+        "antigravity-website"
+      ],
+      "configuration_keys": [
+        "perplexity-ask"
+      ],
+      "status": "template",
+      "setup": "Perplexity API key and API account limits."
+    },
+    {
+      "id": "posthog",
+      "name": "PostHog",
+      "category": "Analytics, AI, and cloud (32 servers)",
+      "source_url": "https://posthog.com/mcp",
+      "listed_in": [
+        "antigravity-website"
+      ],
+      "configuration_keys": [
+        "posthog"
+      ],
+      "status": "template",
+      "setup": "OAuth or provider account setup"
+    },
+    {
+      "id": "relativity",
+      "name": "Relativity",
+      "category": "Analytics, AI, and cloud (32 servers)",
+      "source_url": "https://docs.cloud.google.com/gemini/enterprise/docs/connectors/relativity",
+      "listed_in": [
+        "antigravity-website"
+      ],
+      "configuration_keys": [],
+      "status": "manual-setup-required",
+      "setup": "The catalog links to a Gemini Enterprise connector guide. A connector listing does not establish an Antigravity MCP endpoint. Obtain a supported MCP endpoint from the provider."
+    },
+    {
+      "id": "s-p-global",
+      "name": "S&P Global",
+      "category": "Analytics, AI, and cloud (32 servers)",
+      "source_url": "https://github.com/kensho-technologies/kfinance",
+      "listed_in": [
+        "antigravity-website"
+      ],
+      "configuration_keys": [
+        "s-p-global"
+      ],
+      "status": "template",
+      "setup": "Install kensho-kfinance into your Python environment. Obtain S&P access and complete its authentication flow."
+    },
+    {
+      "id": "salesforce",
+      "name": "Salesforce",
+      "category": "Analytics, AI, and cloud (32 servers)",
+      "source_url": "https://developer.salesforce.com/docs/platform/hosted-mcp-servers/guide/sobject-all.html",
+      "listed_in": [
+        "antigravity-website"
+      ],
+      "configuration_keys": [
+        "salesforce"
+      ],
+      "status": "template",
+      "setup": "Salesforce organization, supported client and OAuth setup. Review provider client registration requirements."
+    },
+    {
+      "id": "sequential-thinking",
+      "name": "Sequential Thinking",
+      "category": "Analytics, AI, and cloud (32 servers)",
+      "source_url": "https://github.com/modelcontextprotocol/servers/tree/main/src/sequentialthinking",
+      "listed_in": [
+        "antigravity-website"
+      ],
+      "configuration_keys": [
+        "sequential-thinking"
+      ],
+      "status": "template",
+      "setup": "Node.js and npm. The original starter profile is enabled."
+    },
+    {
+      "id": "stripe",
+      "name": "Stripe",
+      "category": "Analytics, AI, and cloud (32 servers)",
+      "source_url": "https://github.com/stripe/agent-toolkit/tree/main/modelcontextprotocol",
+      "listed_in": [
+        "antigravity-website"
+      ],
+      "configuration_keys": [
+        "stripe"
+      ],
+      "status": "template",
+      "setup": "OAuth or provider account setup"
+    },
+    {
+      "id": "windsor-ai",
+      "name": "Windsor AI",
+      "category": "Analytics, AI, and cloud (32 servers)",
+      "source_url": "https://windsor.ai/documentation/windsor-mcp/",
+      "listed_in": [
+        "antigravity-website"
+      ],
+      "configuration_keys": [
+        "windsor-ai"
+      ],
+      "status": "template",
+      "setup": "Windsor OAuth or API-key setup and connected data sources.",
+      "setup_source_url": "https://github.com/windsor-ai/windsor_mcp"
+    },
+    {
+      "id": "google-cloud-resource-manager",
+      "name": "Cloud Resource Manager",
+      "category": "Google MCP repository",
+      "source_url": "https://docs.cloud.google.com/resource-manager/reference/mcp",
+      "listed_in": [
+        "google/mcp"
+      ],
+      "configuration_keys": [
+        "google-cloud-resource-manager"
+      ],
+      "status": "template",
+      "setup": "Google credentials, API/MCP enablement, project and IAM permissions. Regional/account restrictions apply."
+    },
+    {
+      "id": "google-cloud-sql-for-postgresql",
+      "name": "Cloud SQL for PostgreSQL",
+      "category": "Google MCP repository",
+      "source_url": "https://docs.cloud.google.com/sql/docs/postgres/use-cloudsql-mcp",
+      "listed_in": [
+        "google/mcp"
+      ],
+      "configuration_keys": [
+        "google-cloud-sql-for-postgresql"
+      ],
+      "status": "template",
+      "setup": "Google credentials, API/MCP enablement, project and IAM permissions. Regional/account restrictions apply."
+    },
+    {
+      "id": "google-cloud-sql-for-sql-server",
+      "name": "Cloud SQL for SQL Server",
+      "category": "Google MCP repository",
+      "source_url": "https://docs.cloud.google.com/sql/docs/sqlserver/use-cloudsql-mcp",
+      "listed_in": [
+        "google/mcp"
+      ],
+      "configuration_keys": [
+        "google-cloud-sql-for-sql-server"
+      ],
+      "status": "template",
+      "setup": "Google credentials, API/MCP enablement, project and IAM permissions. Regional/account restrictions apply."
+    },
+    {
+      "id": "google-compute-engine-gce",
+      "name": "Compute Engine (GCE)",
+      "category": "Google MCP repository",
+      "source_url": "https://docs.cloud.google.com/compute/docs/reference/mcp",
+      "listed_in": [
+        "google/mcp"
+      ],
+      "configuration_keys": [
+        "google-compute-engine-gce"
+      ],
+      "status": "template",
+      "setup": "Google credentials, API/MCP enablement, project and IAM permissions. Regional/account restrictions apply."
+    },
+    {
+      "id": "google-developer-knowledge-api-google-developer-documentation",
+      "name": "Developer Knowledge API (Google Developer Documentation)",
+      "category": "Google MCP repository",
+      "source_url": "https://developers.google.com/knowledge/mcp",
+      "listed_in": [
+        "google/mcp"
+      ],
+      "configuration_keys": [
+        "google-developer-knowledge-api-google-developer-documentation"
+      ],
+      "status": "template",
+      "setup": "Enable the relevant Google API and supply its permitted API key."
+    },
+    {
+      "id": "google-firestore",
+      "name": "Firestore",
+      "category": "Google MCP repository",
+      "source_url": "https://docs.cloud.google.com/firestore/native/docs/use-firestore-mcp",
+      "listed_in": [
+        "google/mcp"
+      ],
+      "configuration_keys": [
+        "google-firestore"
+      ],
+      "status": "template",
+      "setup": "Google credentials, API/MCP enablement, project and IAM permissions. Regional/account restrictions apply."
+    },
+    {
+      "id": "google-google-maps-grounding-lite",
+      "name": "Google Maps (Grounding Lite)",
+      "category": "Google MCP repository",
+      "source_url": "https://developers.google.com/maps/ai/grounding-lite",
+      "listed_in": [
+        "google/mcp"
+      ],
+      "configuration_keys": [
+        "google-google-maps-grounding-lite"
+      ],
+      "status": "template",
+      "setup": "Enable the relevant Google API and supply its permitted API key."
+    },
+    {
+      "id": "google-google-security-operations-chronicle",
+      "name": "Google Security Operations (Chronicle)",
+      "category": "Google MCP repository",
+      "source_url": "https://docs.cloud.google.com/chronicle/docs/reference/mcp",
+      "listed_in": [
+        "google/mcp"
+      ],
+      "configuration_keys": [
+        "google-google-security-operations-chronicle"
+      ],
+      "status": "template",
+      "setup": "Requires your SecOps region and instance configuration. Select a regional endpoint from the official SecOps documentation.",
+      "setup_source_url": "https://docs.cloud.google.com/mcp/supported-products"
+    },
+    {
+      "id": "google-kubernetes-engine-gke",
+      "name": "Kubernetes Engine (GKE)",
+      "category": "Google MCP repository",
+      "source_url": "https://docs.cloud.google.com/kubernetes-engine/docs/reference/mcp",
+      "listed_in": [
+        "google/mcp",
+        "google/mcp"
+      ],
+      "configuration_keys": [
+        "google-kubernetes-engine-gke"
+      ],
+      "status": "template",
+      "setup": "Google credentials, API/MCP enablement, project and IAM permissions. Regional/account restrictions apply."
+    },
+    {
+      "id": "google-cloud-run",
+      "name": "Cloud Run",
+      "category": "Google MCP repository",
+      "source_url": "https://docs.cloud.google.com/run/docs/reference/mcp",
+      "listed_in": [
+        "google/mcp",
+        "google/mcp"
+      ],
+      "configuration_keys": [
+        "google-cloud-run"
+      ],
+      "status": "template",
+      "setup": "Google credentials, API/MCP enablement, project and IAM permissions. Regional/account restrictions apply."
+    },
+    {
+      "id": "google-cloud-storage",
+      "name": "Cloud Storage",
+      "category": "Google MCP repository",
+      "source_url": "https://docs.cloud.google.com/storage/docs/reference/mcp",
+      "listed_in": [
+        "google/mcp"
+      ],
+      "configuration_keys": [
+        "google-cloud-storage"
+      ],
+      "status": "template",
+      "setup": "Google credentials, API/MCP enablement, project and IAM permissions. Regional/account restrictions apply."
+    },
+    {
+      "id": "google-google-workspace",
+      "name": "Google Workspace",
+      "category": "Google MCP repository",
+      "source_url": "https://github.com/gemini-cli-extensions/workspace",
+      "listed_in": [
+        "google/mcp"
+      ],
+      "configuration_keys": [
+        "google-google-workspace"
+      ],
+      "status": "template",
+      "setup": "Install the official Workspace extension and authenticate it. Its extension-relative path is resolved locally."
+    },
+    {
+      "id": "google-go",
+      "name": "Go",
+      "category": "Google MCP repository",
+      "source_url": "https://go.dev/gopls/features/mcp",
+      "listed_in": [
+        "google/mcp"
+      ],
+      "configuration_keys": [
+        "google-go"
+      ],
+      "status": "template",
+      "setup": "Install Go and a gopls version supporting MCP."
+    },
+    {
+      "id": "google-google-analytics",
+      "name": "Google Analytics",
+      "category": "Google MCP repository",
+      "source_url": "https://github.com/googleanalytics/google-analytics-mcp",
+      "listed_in": [
+        "google/mcp"
+      ],
+      "configuration_keys": [
+        "google-google-analytics"
+      ],
+      "status": "template",
+      "setup": "Install pipx. Configure ADC with analytics.readonly scope and Analytics APIs."
+    },
+    {
+      "id": "google-google-cloud-storage",
+      "name": "Google Cloud Storage",
+      "category": "Google MCP repository",
+      "source_url": "https://github.com/googleapis/gcloud-mcp/tree/main/packages/storage-mcp",
+      "listed_in": [
+        "google/mcp"
+      ],
+      "configuration_keys": [
+        "google-google-cloud-storage"
+      ],
+      "status": "template",
+      "setup": "Google Cloud ADC and Cloud Storage permissions."
+    },
+    {
+      "id": "google-genmedia",
+      "name": "Genmedia",
+      "category": "Google MCP repository",
+      "source_url": "https://github.com/GoogleCloudPlatform/vertex-ai-creative-studio/tree/main/experiments/mcp-genmedia",
+      "listed_in": [
+        "google/mcp"
+      ],
+      "configuration_keys": [
+        "genmedia-nanobanana",
+        "genmedia-gemini",
+        "genmedia-imagen",
+        "genmedia-veo",
+        "genmedia-lyria",
+        "genmedia-avtool",
+        "genmedia-omni"
+      ],
+      "status": "template",
+      "setup": "The linked source does not establish a portable connection for this package. Install through the official MCP Store or obtain the endpoint/command and authentication details from the provider."
+    },
+    {
+      "id": "google-google-cloud-security",
+      "name": "Google Cloud Security",
+      "category": "Google MCP repository",
+      "source_url": "https://github.com/google/mcp-security",
+      "listed_in": [
+        "google/mcp"
+      ],
+      "configuration_keys": [
+        "google-security-secops",
+        "google-security-gti",
+        "google-security-scc",
+        "google-security-soar"
+      ],
+      "status": "template",
+      "setup": "The linked source does not establish a portable connection for this package. Install through the official MCP Store or obtain the endpoint/command and authentication details from the provider."
+    },
+    {
+      "id": "google-gcloud-cli",
+      "name": "gcloud CLI",
+      "category": "Google MCP repository",
+      "source_url": "https://github.com/googleapis/gcloud-mcp/tree/main/packages/gcloud-mcp",
+      "listed_in": [
+        "google/mcp"
+      ],
+      "configuration_keys": [
+        "google-gcloud-cli"
+      ],
+      "status": "template",
+      "setup": "Same local gcloud server as Cloud CLI Execution. Enable one profile."
+    },
+    {
+      "id": "google-google-cloud-observability",
+      "name": "Google Cloud Observability",
+      "category": "Google MCP repository",
+      "source_url": "https://github.com/googleapis/gcloud-mcp/tree/main/packages/observability-mcp",
+      "listed_in": [
+        "google/mcp"
+      ],
+      "configuration_keys": [
+        "google-google-cloud-observability"
+      ],
+      "status": "template",
+      "setup": "Google Cloud ADC, quota project and enabled Observability APIs."
+    },
+    {
+      "id": "google-flutter-dart",
+      "name": "Flutter/Dart",
+      "category": "Google MCP repository",
+      "source_url": "https://github.com/dart-lang/ai/tree/main/pkgs/dart_mcp_server",
+      "listed_in": [
+        "google/mcp"
+      ],
+      "configuration_keys": [
+        "google-flutter-dart"
+      ],
+      "status": "template",
+      "setup": "Same Dart server as the website entry. Enable one profile to avoid duplicate tool registrations."
+    },
+    {
+      "id": "google-angular",
+      "name": "Angular",
+      "category": "Google MCP repository",
+      "source_url": "https://github.com/angular/angular-cli/tree/main/packages/angular/cli/src/commands/mcp",
+      "listed_in": [
+        "google/mcp"
+      ],
+      "configuration_keys": [
+        "google-angular"
+      ],
+      "status": "template",
+      "setup": "Run in an Angular workspace and verify ng mcp support."
+    },
+    {
+      "id": "google-google-maps-platform-code-assist-toolkit",
+      "name": "Google Maps Platform Code Assist toolkit",
+      "category": "Google MCP repository",
+      "source_url": "https://developers.google.com/maps/ai/mcp",
+      "listed_in": [
+        "google/mcp"
+      ],
+      "configuration_keys": [
+        "google-google-maps-platform-code-assist-toolkit"
+      ],
+      "status": "template",
+      "setup": "Enable the relevant Google API and supply its permitted API key."
+    }
+  ],
+  "coverage": {
+    "antigravity_website_listings": 76,
+    "catalog_records": 98,
+    "connection_profiles": 167,
+    "manual_setup_records": 10,
+    "google_endpoint_variants_observed": 562
+  },
+  "scope": "All server listings in the official Antigravity MCP page plus the explicit Google MCP README server links. Generic deployment examples are not server products. Tool inventories are supplied dynamically by each connected server.",
+  "additional_google_endpoint_source": "https://docs.cloud.google.com/mcp/supported-products"
+}
