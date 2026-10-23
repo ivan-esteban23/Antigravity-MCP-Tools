@@ -1,0 +1,45 @@
+name: Validate repository
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: validation-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.13'
+      - name: Check shell syntax
+        run: |
+          for script in ./*.sh; do
+            bash -n "$script"
+          done
+      - name: Check Python syntax
+        run: python -m py_compile manage.py
+      - name: Validate JSON and MCP templates
+        run: |
+          python - <<'PYTHON'
+          import json
+          from pathlib import Path
+          from manage import validate
+          for path in Path('.').glob('*.json'):
+              json.loads(path.read_text())
+          config = json.loads(Path('config.json').read_text())
+          assert config == json.loads(Path('mcp_config.json').read_text()), 'MCP templates diverged'
+          for entry in config['mcpServers'].values():
+              validate(entry)
+          print(f"Validated {len(config['mcpServers'])} MCP definitions")
+          PYTHON
